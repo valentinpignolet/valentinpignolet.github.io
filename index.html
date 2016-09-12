@@ -27,11 +27,17 @@
     <script type="text/javascript">
         console.log('ici');
         console.log(mavariable);
+        if(navigator.cookieEnabled) {
+            console.log('cookie enabled');
+        }
         if(document.cookie === '') {
             console.log('vide');
+            document.cookie = 'username=John Doe';
+        } else {
+            console.log('le cookie vaut');
+            console.log(document.cookie);
         }
-        console.log(document.cookie);
-        // document.cookie = 'username=John Doe';
+        
         // var dsurl = 'http://0.0.0.0:7000/image?id=1234';
         // var age = 25;
         // var sexe = 'homme';
