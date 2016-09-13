@@ -21,33 +21,34 @@
     <ui-view ></ui-view>
     
     <script src="scripts/bundle.js"></script>
-    <script type="text/javascript">
+<!--     <script type="text/javascript">
         var mavariable = 'valol';
-    </script>
+    </script> -->
     <script type="text/javascript">
-        console.log('ici');
-        console.log(mavariable);
-        if(navigator.cookieEnabled) {
-            console.log('cookie enabled');
-        }
-        if(document.cookie === '') {
-            console.log('vide');
-            document.cookie = 'username=John Doe';
-        } else {
-            console.log('le cookie vaut');
-            console.log(document.cookie);
-        }
-        console.log('appel');
-        var dsurl = 'https://deepsight-test-cookies.herokuapp.com/';
+        // console.log('ici');
+        // console.log(mavariable);
+        // if(navigator.cookieEnabled) {
+        //     console.log('cookie enabled');
+        // }
+        // if(document.cookie === '') {
+        //     console.log('vide');
+        //     document.cookie = 'username=John Doe';
+        // } else {
+        //     console.log('le cookie vaut');
+        //     console.log(document.cookie);
+        // }
+        // console.log('appel');
+        // var dsurl = 'https://deepsight-test-cookies.herokuapp.com/';
         // var age = 25;
         // var sexe = 'homme';
         // dsurl += '&age=';
         // dsurl += age;
         // dsurl += '&sexe=';
         // dsurl += sexe;
-        var i = new Image();
-        i.src = dsurl;
+        // var i = new Image();
+        // i.src = dsurl;
     </script>
+    <iframe src='https://deepsight-test-cookies.herokuapp.com/'></iframe>
 </body>
 
 </html>
