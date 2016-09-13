@@ -1,5 +1,5 @@
 require=(function e(t,n,r){function s(o,u){if(!n[o]){if(!t[o]){var a=typeof require=="function"&&require;if(!u&&a)return a(o,!0);if(i)return i(o,!0);var f=new Error("Cannot find module '"+o+"'");throw f.code="MODULE_NOT_FOUND",f}var l=n[o]={exports:{}};t[o][0].call(l.exports,function(e){var n=t[o][1][e];return s(n?n:e)},l,l.exports,e,t,n,r)}return n[o].exports}var i=typeof require=="function"&&require;for(var o=0;o<r.length;o++)s(r[o]);return s})({1:[function(require,module,exports){
-"use strict";var controllername="homepage";module.exports=function(i){function e(i){var e=this;e.controllername=o,e.jobs=[{title:"Business Development intern",preview:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",subtitle1:"Deepsight is building the future of Advertising",section1content:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",subtitle2:"Key responsabilities",section2content:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",subtitle3:"Requirements",section3content:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",subtitle4:"Desired qualification",section4content:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",subtitle5:"Benefits",section5content:"Lorem ipsum"},{title:"Back-end developer",preview:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",subtitle1:"Deepsight is building the future of Advertising",section1content:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",subtitle2:"Key responsabilities",section2content:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",subtitle3:"Requirements",section3content:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",subtitle4:"Desired qualification",section4content:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",subtitle5:"Benefits",section5content:"Lorem ipsum"},{title:"Data scientist",preview:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",subtitle1:"Deepsight is building the future of Advertising",section1content:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",subtitle2:"Key responsabilities",section2content:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",subtitle3:"Requirements",section3content:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",subtitle4:"Desired qualification",section4content:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",subtitle5:"Benefits",section5content:"Lorem ipsum"}],e.jobdisplayed=[],e.jobtodisplay=function(i){e.jobdisplayed=e.jobs[i]},e.display=!1,e.scroll="",e.jobofferf=function(){e.display===!0?(e.display=!1,e.scroll=""):e.display===!1&&(e.display=!0,e.scroll="view-wrapper")}}var o=i.name+"."+controllername,t=["$document"];e.$inject=t,i.controller(o,e)};
+"use strict";var controllername="homepage";module.exports=function(e){function t(e,t,i,a,o,s){var r=this;r.controllername=n,r.gotoform=function(e){o.hash(e),s(),o.hash("")},r.steps=[{logo:"images/graphlogo.png",title:"Leverage your custom audience",description:"Deepsight encrypts your data and finds your custom audience on publishers‘ databases."},{logo:"images/earthlogo.png",title:"Operate Deep Learning",description:"Deepsight's Deep Learning algorithm discovers the implicit patterns inside your custom audience behaviour on publishers websites. Then, it identifies a fresh similar audience,  inside publisher’s database."},{logo:"images/constellationlogo.png",title:"Activate your next audience",description:"Thanks to Deepsight’s integrations with the best Adtech services you can activate your Deepsight Next Audience segment and empower your marketing campaigns."}],r.jobs=[{title:"Business Development intern",preview:"From Business development \n to HR to Finance you will be given immediate responsibility in our company and help us run a growing business. You will be in a fun and dynamic work environment where we foster openness and initiative",subtitle1:"Deepsight is building the future of Advertising",section1content:"Deepsight allows advertisers to target the right audience on the web. Data 3rd party is over. Thanks to Deepsight and its Deep Learning algorithm the first party data of brands is used to define the right custom audience to target on our network of premium editors.",subtitle2:"Key responsabilities",section2content:[{content:"Provide competitive and market intelligence within the adtech industry"},{content:"Build and manage sales funnels, in order to acquire leads and close deals"},{content:"Ensuring customer loyalty and satisfaction through excellent customer relationship"},{content:"Create business presentations and sales reports"},{content:"Organize capital events to ensure Deepsight representation in the market and evangelization (organize Meetups, hackathons, etc)"},{content:"Represent Deepsight in market events such as networking and trade shows"},{content:"Collaborate with colleagues in order to drive improvements to products and processes, closely monitor company KPIs"},{content:"Participate in the branding and marketing of Deepsight: build commercial documentation, give insights on Streamroot's market positioning"},{content:"Help manage and create the ideal Deepsight abroad team by recruiting the best colleagues"}],subtitle3:"Requirements",section3content:[{content:"Top ranked Business/Engineering school degree (dual degree is a plus)."},{content:"You are autonomous, dynamic, and passionate about startups and technology."},{content:"Fast learner who likes a challenge and can put a vision into action"},{content:"Excellent written and verbal communication skills in English."},{content:"First BtoB experience in the media industry is a plus."}],subtitle5:"Benefits",section5content:[{content:"Possible shift to a full-time contract"},{content:"Free cookies & fruits everyday!"}]}],r.team=[{nom:"Brice KONDA",picture:"images/brice.png",title:"CEO & Co-founder",linkedinprofile:"https://www.linkedin.com/in/bricekonda?authType=NAME_SEARCH&authToken=XEue&locale=en_US&trk=tyah&trkInfo=clickedVertical%3Amynetwork%2CentityType%3AentityHistoryName%2CclickedEntityId%3Amynetwork_266286701%2Cidx%3A0",description:"Brice has experienced various environments from finance at Goldman Sachs, to marketing at Rocket Internet but has found the perfect mix between analysis and mathematics in the Data Industry. His education at Centrale Paris in Computer science gives him a strong technical background."},{nom:"Hector de LUSSAC",picture:"images/hector.png",title:"CRO & Co-founder",linkedinprofile:"https://www.linkedin.com/in/hectordelussac?authType=NAME_SEARCH&authToken=NfO6&locale=en_US&trk=tyah&trkInfo=clickedVertical%3Amynetwork%2CclickedEntityId%3A20642038%2CauthType%3ANAME_SEARCH%2Cidx%3A1-1-1%2CtarId%3A1473425738923%2Ctas%3Ahector%20de%20lussa",description:"With 15 years in advertising industry, Hector has developed a strong expertise in monetization of audiences including programmatic advertising. Hector has been Head of Sales at Adventori, Ligatus GmbH and Quantum Advertising; he's fully convinced that the future of advertising industry is fully data oriented and it's still the beginning... "},{nom:"Valentin PIGNOLET",picture:"images/valentin.png",title:"CTO & Co-founder",linkedinprofile:"https://www.linkedin.com/in/valentin-pignolet-97330584?authType=NAME_SEARCH&authToken=YfG8&locale=en_US&trk=tyah&trkInfo=clickedVertical%3Amynetwork%2CclickedEntityId%3A299354919%2CauthType%3ANAME_SEARCH%2Cidx%3A1-1-1%2CtarId%3A1473425750464%2Ctas%3Avalentin",description:"With previous experiences in fast growing start-ups, Valentin has learned how to build and scale complex softwares. In addition, Valentin has a strong mathematical background and lately he chose to specialize in deep learning at Ecole Centrale Paris."}],r.jobdisplayed=[],r.jobtodisplay=function(e){r.jobdisplayed=r.jobs[e]},r.display=!1,r.displayform=!1,r.scroll="",r.jobofferf=function(){r.display===!0?(r.display=!1,r.scroll=""):r.display===!1&&(r.display=!0,r.scroll="view-wrapper")},r.getdeepsight=function(){r.displayform===!0?(r.displayform=!1,r.scroll=""):r.displayform===!1&&(r.displayform=!0,r.scroll="view-wrapper")},r.savesuccess=!0,r.submitForm=function(){a(function(){r.firstname=" ",r.lastname=" ",r.email=" ",r.companyname=" ",r.message=" "},500),o.hash("top"),s(),o.hash(""),r.savesuccess=!1,a(function(){r.savesuccess=!0},3e3)}}var n=e.name+"."+controllername,i=["$document","$scope","$http","$timeout","$location","$anchorScroll"];t.$inject=i,e.controller(n,t)};
 
 },{}],2:[function(require,module,exports){
 "use strict";module.exports=function(e){require(1)(e)};
@@ -8,107 +8,99 @@ require=(function e(t,n,r){function s(o,u){if(!n[o]){if(!t[o]){var a=typeof requ
 "use strict";var angular=require(8);require(6);var modulename="common";module.exports=function(e){var r=e+"."+modulename,o=angular.module(r,["ui.router"]);require(2)(o),o.namespace=o.namespace||{};var u=["$stateProvider","$urlRouterProvider"],a=function(e,o){o.otherwise("/"),e.state("home",{url:"/",template:require(4),controller:r+".homepage",controllerAs:"vm"})};return a.$inject=u,o.config(a),o};
 
 },{"2":2,"4":4,"6":6,"8":8}],4:[function(require,module,exports){
-module.exports = '<div ng-class="vm.scroll" >\n' +
-    '<div class="introduction-block">\n' +
-    '	<div class="introduction-block-deepsight">\n' +
-    '		<img class="deepsight-logo" src="images/logo.png">\n' +
-    '		<div class="deepsight-title">DEEPSIGHT</div>\n' +
-    '	</div>\n' +
-    '	<div class="introduction-block-wrapper">\n' +
-    '		<div class="introduction-block-title">LEVERAGE YOUR DATA WITH AI</div>\n' +
-    '		<div class="introduction-block-subtitle">L’intelligence artificielle au service de l’efficacité publicitaire</div>\n' +
-    '		<div class="CTA-btn"><div class="CTA-content"><a href="mailto:votre_email" class="email-link">GET DEEPSIGHT</a></div></div>\n' +
-    '	</div>\n' +
-    '	<img class="introduction-block-image-presentation" src="images/illustration.png">\n' +
-    '</div>\n' +
+module.exports = '<div ng-class="vm.scroll">\n' +
+    '    <div class="introduction-block" id="top">\n' +
+    '        <div class="introduction-block-wrapper">\n' +
+    '            <div class="received-request" ng-hide="vm.savesuccess"> Your request has been received </div>\n' +
+    '            <div class="introduction-block-deepsight">\n' +
+    '                <img class="deepsight-logo" src="images/logo.png">\n' +
+    '                <div class="deepsight-title">DEEPSIGHT</div>\n' +
+    '            </div>\n' +
+    '            <div class="introduction-block-content">\n' +
+    '                <div class="introduction-block-title">REACH YOUR NEXT CUSTOMER WITH AI</div>\n' +
+    '                <div class="introduction-block-subtitle">Deepsight helps brands make the best out of their data to improve marketing efficiency</div>\n' +
+    '                <div class="CTA-btn" ng-click="vm.gotoform(\'information\')">\n' +
+    '                    <div class="CTA-content">REQUEST A DEMO</div>\n' +
+    '                </div>\n' +
     '\n' +
-    '<div class="team-block">\n' +
-    '	<div class="team-block-title">L\'Equipe</div>\n' +
-    '	<div class="team-member-container">\n' +
-    '		<div class="team-member-wrapper">\n' +
-    '			<div class="team-member-picture-wrapper">\n' +
-    '				<img class="team-member-picture" src="images/brice.png">\n' +
-    '				<img class="linked-in-link" src="images/linked-in.png">\n' +
-    '			</div>\n' +
-    '			<div class="team-member-name">Brice KONDA</div>\n' +
-    '			<div class="team-member-title">CEO & Co-founder</div>\n' +
-    '		</div>\n' +
-    '		<div class="team-member-wrapper">\n' +
-    '			<div class="team-member-picture-wrapper">\n' +
-    '				<img class="team-member-picture" src="images/valentin.png">\n' +
-    '				<img class="linked-in-link" src="images/linked-in.png">\n' +
-    '			</div>\n' +
-    '			<div class="team-member-name">Brice KONDA</div>\n' +
-    '			<div class="team-member-title">CTO & Co-founder</div>\n' +
-    '		</div>\n' +
-    '		<div class="team-member-wrapper">\n' +
-    '			<div class="team-member-picture-wrapper">\n' +
-    '				<img class="team-member-picture" src="images/hector.png">\n' +
-    '				<img class="linked-in-link" src="images/linked-in.png">\n' +
-    '			</div>\n' +
-    '			<div class="team-member-name">Brice KONDA</div>\n' +
-    '			<div class="team-member-title">VP Sales & Co-founder</div>\n' +
-    '		</div>\n' +
-    '		\n' +
-    '	</div>\n' +
-    '</div>\n' +
+    '            </div>\n' +
+    '        </div>\n' +
+    '        <div class="deepsight-steps-wrapper">\n' +
+    '            <div class="introduction-block-title">\n' +
+    '                <span style="color :#23231C">Next Audience by Deepsight </span>\n' +
+    '            </div>\n' +
+    '            <div class="introduction-block-subtitle steps-subtitle">\n' +
+    '                <span style="color :#23231C">Expand your custom audience across our publishers network to improve customer acquisition</span>\n' +
+    '            </div>\n' +
+    '            <div class="steps-wrapper" ng-repeat="step in vm.steps">\n' +
+    '                <img class="steps-picture" src="{{step.logo}}">\n' +
+    '                <div class="steps-content">\n' +
+    '                    <div class="steps-title">{{step.title}}</div>\n' +
+    '                    <div class="steps-description">{{step.description}}</div>\n' +
+    '                </div>\n' +
+    '            </div>\n' +
+    '        </div>\n' +
+    '    </div>\n' +
     '\n' +
-    '<div class="job-block">\n' +
-    '	<div class="job-block-title">We\'re hiring</div>\n' +
-    '	<div class="job-block-subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>\n' +
+    '    <div class="CTA-btn-bis" ng-click="vm.gotoform(\'information\')">\n' +
+    '        <div class="CTA-content">REQUEST A DEMO</div>\n' +
+    '    </div>\n' +
     '\n' +
-    '	<div class="job-card" ng-repeat="job in vm.jobs">\n' +
-    '		<div class="text-block">\n' +
-    '			<div class="job-card-title">{{job.title}}</div>\n' +
-    '			<div class="job-card-subtitle">{{job.preview}}</div>\n' +
-    '		</div>\n' +
-    '		<div class="apply-wrapper"><div class="apply-btn" ng-click="vm.jobofferf(); vm.jobtodisplay($index)"><div class="apply-content">APPLY</div></div></div>\n' +
-    '	</div>\n' +
+    '    <div class="team-block">\n' +
+    '        <div class="team-block-title">The team</div>\n' +
+    '        <div class="team-member-container">\n' +
+    '            <div class="team-member-wrapper" ng-repeat="member in vm.team">\n' +
+    '                <div class="team-member-picture-wrapper">\n' +
+    '                    <img class="team-member-picture" src="{{member.picture}}">\n' +
+    '                    <a href="{{member.linkedinprofile}}" target="_blank">\n' +
+    '                        <img class="linked-in-link" src="images/linked-in.png">\n' +
+    '                    </a>\n' +
+    '                </div>\n' +
+    '                <div class="team-member-name">{{member.nom}}</div>\n' +
+    '                <div class="team-member-title">{{member.title}}</div>\n' +
+    '                <div class="team-member-descripton">{{member.description}}</div>\n' +
+    '            </div>\n' +
+    '        </div>\n' +
+    '        <div class="hiring">Join us!</div>\n' +
+    '        <div class="hiring-content steps-subtitle">We are looking for data scientists, back-end developers and business developers.\n' +
+    '            <br>Think you would fit right in? Wow us with your résumé and portfolio/Github!</div>\n' +
+    '        <a href="mailto:brice@deepsight.io" class="email-link">\n' +
+    '            <div class="CTA-btn hiring-btn">\n' +
+    '                <div class="hiring-btn-content">APPLY</div>\n' +
+    '            </div>\n' +
+    '        </a>\n' +
+    '    </div>\n' +
     '\n' +
-    '<!-- 	<div class="job-card">\n' +
-    '		<div class="text-block">\n' +
-    '			<div class="job-card-title">Back-end developer</div>\n' +
-    '			<div class="job-card-subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>\n' +
-    '		</div>\n' +
-    '		<div class="apply-wrapper"><div class="apply-btn"><div class="apply-content">APPLY</div></div></div>\n' +
-    '	</div>\n' +
-    '	<div class="job-card">\n' +
-    '		<div class="text-block">\n' +
-    '			<div class="job-card-title">Data scientist</div>\n' +
-    '			<div class="job-card-subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>\n' +
-    '		</div>\n' +
-    '		<div class="apply-wrapper"><div class="apply-btn" ng-click="vm.jobofferf()"><div class="apply-content">APPLY</div></div></div>\n' +
-    '	</div> -->\n' +
-    '</div>\n' +
+    '    <div class="form-block">\n' +
+    '        <div class="get-in-touch" id="information">Get in touch with us</div>\n' +
+    '        <form name="userForm" class="form-class" action="https://docs.google.com/forms/d/15G_e5qdh038_IQhsU5isIbrlORPhXG33X_wqn86WMiI/formResponse" method="POST" target="fake-target">\n' +
     '\n' +
-    '<div class="footer">\n' +
-    '	<img class="logo-footer" src="images/logo.png">\n' +
-    '	<div class="footer-deepsight">Deepsight</div>\n' +
-    '	<div class="footer-contact">Contact</div>\n' +
-    '	<div class="footer-copyright">Copyright 2016 - SAS Deepsight Technologies</div>	\n' +
-    '</div>\n' +
+    '            <label class="get-in-touch-input-title">First Name</label>\n' +
+    '            <input type="text" name="entry.593107124" ng-model="vm.firstname" class="get-in-touch-input" placeholder="">\n' +
+    '            <label class="get-in-touch-input-title">Last Name</label>\n' +
+    '            <input type="text" name="entry.512202961" ng-model="vm.lastname" class="get-in-touch-input" placeholder="">\n' +
+    '            <label class="get-in-touch-input-title">Email Addres</label>\n' +
+    '            <input type="email" name="entry.610193312" ng-model="vm.email" class="get-in-touch-input" placeholder="">\n' +
+    '            <label class="get-in-touch-input-title">Company Name</label>\n' +
+    '            <input type="text" name="entry.1819518834" ng-model="vm.companyname" class="get-in-touch-input" placeholder="">\n' +
+    '            <label type="text" name="message" class="get-in-touch-input-title">Message</label>\n' +
+    '            <textarea type="text" name="entry.1378876788" ng-model="vm.message" class="get-in-touch-message" placeholder=""></textarea>\n' +
     '\n' +
-    '<div class="job-offer-wrapper"  ng-if="vm.display">\n' +
-    '	<img class="close-job-offer" src="images/close.png" ng-click="vm.jobofferf()">\n' +
-    '<!-- 	<div class="job-offer-overlay" id="backgroundtest"></div> -->\n' +
-    '	<div class="job-offer-card" id="divtest">\n' +
-    '		<div class="job-offer-title">{{vm.jobdisplayed.title}}</div>\n' +
-    '		<div class="job-offer-subtitle">{{vm.jobdisplayed.subtitle1}}</div>\n' +
-    '		<div class="job-offer-content">{{vm.jobdisplayed.section1content}}</div>\n' +
-    '		<div class="job-offer-subtitle">{{vm.jobdisplayed.subtitle2}}</div>\n' +
-    '		<div class="job-offer-content">{{vm.jobdisplayed.section2content}}</div>\n' +
-    '		<div class="job-offer-subtitle">{{vm.jobdisplayed.subtitle3}}</div>\n' +
-    '		<div class="job-offer-content">{{vm.jobdisplayed.section3content}}</div>\n' +
-    '		<div class="job-offer-subtitle">{{vm.jobdisplayed.subtitle4}}</div>\n' +
-    '		<div class="job-offer-content">{{vm.jobdisplayed.section4content}}</div>\n' +
-    '		<div class="job-offer-subtitle">{{vm.jobdisplayed.subtitle5}}</div>\n' +
-    '		<div class="job-offer-content">{{vm.jobdisplayed.section5content}}</div>\n' +
-    '		<div class="job-offer-apply-wrapper"><a href="mailto:votre_email" class="email-link"><div class="apply-btn-job-offer"><div class="apply-content">APPLY</div></div></a></div>\n' +
-    '	</div>	\n' +
-    '</div>\n' +
+    '            <button type="submit" class="submit-in-btn-valid" ng-click="vm.submitForm()">\n' +
+    '                <div class="submit-in-text">SUBMIT</div>\n' +
+    '            </button>\n' +
     '\n' +
-    '</div>\n' +
-    '';
+    '        </form>\n' +
+    '        <iframe src="#" id="fake-target" name="fake-target" style="width:0px; height:0px; border:0px;"></iframe>\n' +
+    '    </div>\n' +
+    '    <div class="footer">\n' +
+    '        <img class="logo-footer" src="images/logo.png">\n' +
+    '        <div class="footer-deepsight">Deepsight</div>\n' +
+    '        <div class="footer-contact"><a href="mailto:brice@deepsight.io" class="footer-contact-link">Contact</a></div>\n' +
+    '        <div class="footer-copyright">Copyright 2016 - SAS Deepsight Technologies</div>\n' +
+    '    </div>\n' +
+    '\n' +
+    '</div>';
 },{}],5:[function(require,module,exports){
 "use strict";var namespace="main";window.location.toString().indexOf("localhost:5555")>0&&(window.name="NG_DEFER_BOOTSTRAP!NG_ENABLE_DEBUG_INFO!");var angular=require(8);require(6);var app=angular.module(namespace,[require(3)(namespace).name]),configCompileDeps=["$compileProvider"],configCompile=function(n){n.debugInfoEnabled(!1)};configCompile.$inject=configCompileDeps,app.config(configCompile);var runDeps=[],run=function(){};run.$inject=runDeps,app.run(run),module.exports=app;
 
