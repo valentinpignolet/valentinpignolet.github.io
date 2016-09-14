@@ -1,0 +1,24 @@
+{
+  "name": "menlook-fake",
+  "version": "1.0.0",
+  "description": "Simulate Menlook website for cookie syncing",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-webserver": "^0.9.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/valentinpignolet/menlook-fake"
+  },
+  "author": "Valentin Pignolet",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/valentinpignolet/menlook-fake/issues"
+  },
+  "homepage": "https://github.com/valentinpignolet/menlook-fake"
+}
