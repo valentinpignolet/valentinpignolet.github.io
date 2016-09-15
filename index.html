@@ -9,26 +9,29 @@
     <!--[if IE]>
     <link rel="shortcut icon" href="/favicon.ico" type="image/vnd.microsoft.icon">
     <![endif]-->
-    <title>Menlook: Fake</title>
+    <title>Deepsight: Fake</title>
     <!-- <link rel="stylesheet" href="styles/main.css"> -->
 </head>
 <body>
-<div>Site Menlook</div>
+<div>Site Deepsight Cookies</div>
 <script type="text/javascript">
-	var urlds = 'http://0.0.0.0:7000/userdata?menlookid=';
-	if(document.cookie === '') {
-		console.log('cookie non érit');
-		document.cookie = 'menlookid=Gokqj9ozq9Xf7zPcNvhtyc791YeV_I2Y4OU';
-	} else {
-		console.log('cookie défini');
-		var cookie = document.cookie;
-		console.log(cookie);
-		var menlookId = cookie.split('=').pop(); 
-		console.log(menlookId);
-		urlds += menlookId;
-		var i = new Image();
-		i.src = urlds;
-	}
+	// var urlds = 'http://0.0.0.0:7000/userdata?menlookid=';
+	var urlds = 'http://0.0.0.0:7000/write';
+	var i = new Image();
+	i.src = urlds;
+	// if(document.cookie === '') {
+	// 	console.log('cookie non érit');
+	// 	document.cookie = 'menlookid=Gokqj9ozq9Xf7zPcNvhtyc791YeV_I2Y4OU';
+	// } else {
+	// 	console.log('cookie défini');
+	// 	var cookie = document.cookie;
+	// 	console.log(cookie);
+	// 	var menlookId = cookie.split('=').pop(); 
+	// 	console.log(menlookId);
+	// 	urlds += menlookId;
+	// 	var i = new Image();
+	// 	i.src = urlds;
+	// }
 </script>
 </body>
 
