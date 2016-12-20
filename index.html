@@ -40,8 +40,17 @@ console.log('hello mon pote');
     var s=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
     s.type = "text/javascript";
     s.async = true;
-    var param1 = 'premierparam'
-    s.src='http://0.0.0.0:7000?param1=' + param1;
+    var dsP = {
+        cust_email: '',
+        product_type: '',
+        cart_value: ''
+    };
+    var urlParam = []
+
+    for (var i in dsP){
+       urlParam.push(encodeURI(i) + "=" + encodeURI(dsP[i]));
+    }
+    s.src='http://0.0.0.0:7000?' + urlParam.join("&");
     s0.parentNode.insertBefore(s,s0);
 })();
 </script>
