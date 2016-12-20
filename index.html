@@ -34,13 +34,13 @@
 </head>
 <!--Start of Tawk.to Script-->
 <script type="text/javascript">
-var Deepsight_Client_Name = '';
-console.log('hello mon pote');
 (function(){
     var s=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
     s.type = "text/javascript";
     s.async = true;
     var dsP = {
+        url: window.location.href,
+        client_name: ''
         cust_email: '',
         product_type: '',
         cart_value: ''
@@ -50,7 +50,7 @@ console.log('hello mon pote');
     for (var i in dsP){
        urlParam.push(encodeURI(i) + "=" + encodeURI(dsP[i]));
     }
-    s.src='http://0.0.0.0:7000?' + urlParam.join("&");
+    s.src='http://tr.deepsight.io/adv?' + urlParam.join("&");
     s0.parentNode.insertBefore(s,s0);
 })();
 </script>
