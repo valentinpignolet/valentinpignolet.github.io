@@ -1,42 +1,220 @@
-<!doctype html>
+<!-- <!doctype html> -->
 <html lang="en" ng-app="main" ng-strict-di>
 
 <head>
     <meta charset="UTF-8">
-    <title>Deepsight : REACH YOUR NEXT CUSTOMER WITH AI</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <link rel="icon" type="image/png" href="images/logo-deepsight.png">
     <!-- Enable all requests, inline styles, and eval() see https://github.com/apache/cordova-plugin-whitelist#content-security-policy-->
     <meta http-equiv="Content-Security-Policy" content="default-src *; style-src 'self' 'unsafe-inline'; script-src * 'unsafe-inline' 'unsafe-eval'; media-src *; img-src *">
-    <link rel="icon" type="image/ico" href="images/logo.png">
+    <link rel="icon" type="image/ico" href="favicon.ico">
     <!--[if IE]>
     <link rel="shortcut icon" href="/favicon.ico" type="image/vnd.microsoft.icon">
     <![endif]-->
-    <title>Sample app</title>
-    <link rel="stylesheet" href="styles/main.css">
+    <title>Deepsight's Website</title>
+    <link rel="stylesheet" href="./styles/main.scss">
 </head>
 
-<body class="body-class">
+
+<body class="app-body">
+
+
+
     <!--[if lt IE 7]>
             <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
     <![endif]-->
-    <ui-view></ui-view>
-    <script src="scripts/bundle.js"></script>
-    <script>
-    (function(i, s, o, g, r, a, m) {
-        i['GoogleAnalyticsObject'] = r;
-        i[r] = i[r] || function() {
-            (i[r].q = i[r].q || []).push(arguments)
-        }, i[r].l = 1 * new Date();
-        a = s.createElement(o),
-            m = s.getElementsByTagName(o)[0];
-        a.async = 1;
-        a.src = g;
-        m.parentNode.insertBefore(a, m)
-    })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+<div id="wrapper">
+    <header class="first-block-wrapper">
+        <div class="header">
+            <div class="logo-wrapper">
+                <div class="logo"></div>
+                <div class="logo-copy">Deepsight</div>
+            </div>
+            <div class="categories-log-in-wrapper">
+                <div class="categories-wrapper">
+                    <div class="category" ng-click='vm.gotosolution()' id="solutioncategory">
+                        Solution
+                    </div>
+                    <div class="category" ng-click='vm.gotoadvertisers()' id="advertiserscategory">
+                        Annonceurs
+                    </div>
+                    <div class="category" ng-click='vm.gotopublishers()' id="publisherscategory">
+                        Éditeurs
+                    </div>
+                    <div class="category" ng-click='vm.gotofounders()' id="founderscategory">
+                        Fondateurs
+                    </div>
+                    <div class="category" ng-click='vm.gotopartners()' id="partnerscategory">
+                        Partenaires
+                    </div>
+                </div>
+                <a href="https://dashboard.deepsight.io"><div class="log-in-btn">
+                    <div class="log-in-btn-copy"> LOG IN</div>
+                </div></a>
+            </div>
+        </div>
+        <div class="first-block-copy-wrapper">
+            <div class="first-block-copy">
+                <div class="first-block-copy-title">L’INTELLIGENCE ARTIFICIELLE AU SERVICE DU CIBLAGE PUBLICITAIRE</div>
+                <div class="first-block-copy-subtitle">Capitalisez sur la connaissance des comportements de vos clients pour améliorer l'efficacité de votre stratégie d'acquisition digitale</div>
+                <div class="first-block-copy-btn-wrapper">
+                    <a href="mailto:brice@deepsight.io"><div class="request-a-demo-btn">DEMANDEZ UNE DEMO</div></a>
+                </div>
+            </div>
+        </div>
 
-    ga('create', 'UA-85699486-1', 'auto');
-    ga('send', 'pageview');
-    </script>
+    </header>
+
+    <div class="solution-block-wrapper" id="solution">
+        <div class="solution-title">La solution</div>
+        <div class="solution-subtitle">Deepsight analyse le comportement de vos clients sur les bases de données de ses éditeurs partenaires et crée des segments d’audience personnalisés</div>
+        <div class="solution-description-wrapper">
+            <div class="solution-step-block">
+                <img src="./images/step-1-icon.png" class="step-icon"></img>
+                <div class="step-title">Connectez-vous</div>
+                <div class="step-copy">La solution Deepsight vous permet d'identifier vos clients sur les bases de données de ses éditeurs partenaires et de créer des segments <span style="font-family:proximanovaregularitalic">audience commune </span>de clients à réactiver lors d’actions marketing.</div>
+            </div>
+            <div class="solution-step-block">
+                <img src="./images/step-2-icon.png" class="step-icon"></img>
+                <div class="step-title">Apprenez</div>
+                <div class="step-copy">L’algorithme de Deepsight analyse le comportement de navigation de vos clients  sur les bases de données de ses éditeurs partenaires et crée ainsi des segments<span style="font-family:proximanovaregularitalic"> audience similaire</span> de nouveaux prospects simialires à vos clients</div>
+            </div>
+            <div class="solution-step-block">
+                <img src="./images/step-3-icon.png" class="step-icon"></img>
+                <div class="step-title">Activez</div>
+                <div class="step-copy">Activez vos segments <span style="font-family:proximanovaregularitalic">audience similaire</span> et <span style="font-family:proximanovaregularitalic">audience commune</span>. Consultez vos rapports de campagne. La prise en compte des retours campagnes permet un apprentissage permanent de l’algorithme de Deepsight.</div>
+            </div>
+        </div>
+    </div>
+    <div class="advertisers-block-wrapper" id="advertisers">
+        <div class="advertisers-two-block-wrapper">
+            <div class="advertisers-left-block-wrapper">
+                <img src="./images/dashboard-picture.png" class="advertisers-picture"></img>
+            </div>
+            <div class="advertisers-right-block-wrapper">
+                <div class="advertisers-right-block-container">
+                    <div class="advertisers-title">Annonceurs</div>
+                    <!--                     <span style="font-size:26px;font-family:proximanovaregular; color :#1580EF">Tirez vraiment parti du potentiel de la data</span> -->
+                    <div class="advertisers-subtitle">
+                        <span style="font-size:26px;font-family:proximanovasemibold; color :#1580EF">Tirez parti d'un ciblage de pointe sur le web</span>
+                        <br>
+                        <br> - Rationnalisez vos investissements média
+                        <br> - Augmentez votre ROI campagne
+                        <br> - Plateforme de création de segments personnalisés
+                        <br> - Transparence du sourcing de la données
+
+                    </div>
+                    <a href="mailto:brice@deepsight.io"><div class="advertisers-btn">DEMANDEZ UNE DEMO</div></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="publishers-block-wrapper" id="publishers">
+        <div class="publishers-two-block-wrapper">
+            <div class="publishers-left-block-wrapper">
+                <img src="./images/dashboard-picture-publishers.png" class="publishers-picture"></img>
+            </div>
+            <div class="publishers-right-block-wrapper">
+                <div class="publishers-right-block-container">
+                    <div class="publishers-title">Éditeurs</div>
+                    <div class="publishers-subtitle">
+                        <span style="font-size:26px;font-family:proximanovasemibold; color :#003D56">Libérez enfin tout le potentiel de votre data</span>
+                        <br>
+                        <br> - Consolidez et diversiviez votre offre data
+                        <br> - Augmentez votre RPM
+                        <br> - Ayez le contrôle de vos données
+                        <br> - Plateforme dédiée éditeur
+                    </div>
+                    <a href="mailto:brice@deepsight.io"><div class="publishers-btn">DEMANDEZ UNE DEMO</div></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="founders-block-wrapper" id="founders">
+        <div class="founders-title">Les fondateurs</div>
+
+        <div class="solution-description-wrapper">
+            <div class="founders-step-block">
+                <img src="./images/brice-picture.png" class="founders-icon"></img>
+                <div class="founders-name">
+                    <span style="color:#1580EF">Brice Konda</span> - CEO</div>
+                <div class="step-copy">Après des expériences plurielles, de Goldman Sachs à Rocket Internet, Brice a trouvé un équilibre parfait entre l'analyse mathématique et l'efficacité pratique dans l'industrie de l'Adtech. Brice est diplomé de l'École Centrale Paris en sciences de l'information.</div>
+            </div>
+            <div class="founders-step-block">
+                <img src="./images/hector-picture.png" class="founders-icon"></img>
+                <div class="founders-name">
+                    <span style="color:#1580EF">Hector de Lussac</span> - CRO</div>
+                <div class="step-copy">Ses 15 d'expérience dans le milieu de la publicité digitale confère à Hector une connaissance complète de l'environnement programmatique et de la monétisation des audiences. Hector a été directeur commercial de Ligatus, Quantum advertising et Blue Media.  </div>
+            </div>
+            <div class="founders-step-block">
+                <img src="./images/valentin-picture.png" class="founders-icon"></img>
+                <div class="founders-name">
+                    <span style="color:#1580EF">Valentin Pignolet</span> - CTO</div>
+                <div class="step-copy">Fort d'une experience riche et variée dans l'écosystème start-up londonien, Valentin a appris à construire et à développer des applications logicielles d'une feuille blanche. Valentin est diplomé de l'École Centrale Paris en mathématiques appliquées</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="CTA-block-wrapper" id="CTA">
+        <div class="CTA-block-container">
+            <div class="CTA-block-title">Redonnez du sens à vos actions marketing grâce au ciblage Deepsight
+            </div>
+            <a href="mailto:brice@deepsight.io"><div class="CTA-block-btn">DEMANDEZ UNE DEMO</div></a>
+        </div>
+    </div>
+
+    <div class="partners-block-wrapper" id="partners">
+        <div class="partners-title">Nos partenaires</div>
+        <div class="partners-block-container">
+            <div class="partners-block-advertisers">
+                <div class="partners-advertisers">
+                    <img class="partner-1" src="./images/interflora.png">
+                </div>
+                <div class="partners-advertisers">
+                    <img class="partner-2" src="./images/vente-a-la-propriete.png">
+                </div>
+                <div class="partners-advertisers">
+                    <img class="partner-3" src="./images/big-moustache.png">
+                </div>
+                <div class="partners-advertisers">
+                    <img class="partner-4" src="./images/showroomprive.png">
+                </div>
+                <div class="partners-advertisers">
+                    <img class="partner-5" src="./images/verychic.png">
+                </div>
+                <div class="partners-advertisers">
+                    <img class="partner-6" src="./images/sarenza.png">
+                </div>
+                <div class="partners-advertisers">
+                    <img class="partner-7" src="./images/lepetitballon.png">
+                </div>
+                <div class="partners-advertisers">
+                    <img class="partner-8" src="./images/1001pneus.png">
+                </div>
+            </div>
+            <div class="partners-block-publishers">
+                <div class="partners-publishers">
+                    <img class="partner-publisher-icon" src="./images/M6web.png">
+                </div>
+                <div class="partners-publishers">
+                    <img class="partner-publisher-icon" src="./images/prismamedia.png">
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="footer-wrapper">
+        <img src="./images/logo-deepsight.png" class="footer-logo"></img>
+        <div class="footer-title">Deepsight</div>
+        <a href="mailto:brice@deepsight.io"><div class="footer-contact">Contact </div></a>
+        <div class="footer-copyright">Copyright 2017 - Deepsight SAS</div>
+    </footer>
+
+</div>
+<!--     <script src="//static.intercomcdn.com/intercom.v1.js"></script> -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="scripts/mainscript.js"></script>
+
 </body>
 
 </html>
