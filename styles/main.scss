@@ -93,7 +93,10 @@
         height: 460px;
     }
     .CTA-block-container {
-        width: 85%;
+        width: 84%;
+        margin-left: 8%;
+        margin-right: 8%;
+        margin-top: 80px;
     }
     .CTA-block-btn {
         width: 300px;
@@ -151,7 +154,7 @@
         height: auto;
     }
     .solution-step-block, .founders-step-block {
-        margin-bottom: 100px;
+        margin-bottom: 160px;
     }
     /*********************************************
     ADVERTISERS BLOCK
@@ -184,6 +187,9 @@
     }
     .CTA-block-container {
         width: 70%;
+        margin-left: 15%;
+        margin-right: 15%;
+        margin-top: 100px;
     }
     .CTA-block-btn {
         width: 300px;
@@ -274,6 +280,9 @@
     }
     .CTA-block-container {
         width: 50%;
+        margin-left: 25%;
+        margin-right: 25%;
+        margin-top: 100px;
     }
     .CTA-block-btn {
         width: 340px;
@@ -357,6 +366,9 @@
     }
     .CTA-block-container {
         width: 70%;
+        margin-left: 15%;
+        margin-right: 15%;
+        margin-top: 100px;
     }
     .CTA-block-btn {
         width: 340px;
@@ -469,14 +481,25 @@
     background-color: blue;
     border: 1px solid #6E929F;
     background-color: rgba(197, 205, 209, 0.20);
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    // display: flex;
+    // align-items: center;
+    // justify-content: center;
     font-size: 18px;
     font-family: proximanovalight;
     color: white;
     cursor: pointer;
     text-decoration: none;
+}
+
+.log-in-btn-copy {
+    position: relative;
+    float: left;
+    margin-top: 11px;
+    margin-bottom: 11px;
+    width: 60px;
+    margin-left: calc(50% - 30px);
+    margin-right: calc(50% - 30px);
+    text-align: center;
 }
 
 .log-in-btn:hover {
@@ -525,13 +548,24 @@
     height: 50px;
     border-radius: 3px;
     background-color: #1580EF;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    // display: flex;
+    // align-items: center;
+    // justify-content: center;
     font-size: 22px;
     font-family: proximanovalight;
     color: white;
     cursor: pointer;
+}
+
+.request-a-demo-copy {
+    position: relative;
+    float: left;
+    margin-top: 14px;
+    margin-bottom: 14px;
+    width: 240px;
+    margin-left: calc(50% - 120px);
+    margin-right: calc(50% - 120px);
+    text-align: center;
 }
 
 .request-a-demo-btn:hover {
@@ -735,9 +769,9 @@
     float: left;
     height: 50px;
     border-radius: 3px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    // display: flex;
+    // align-items: center;
+    // justify-content: center;
     font-size: 22px;
     font-family: proximanovalight;
     color: white;
@@ -837,9 +871,9 @@
 
 .CTA-block-wrapper {
     position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    // display: flex;
+    // align-items: center;
+    // justify-content: center;
     float: left;
     width: 100%;
     background: url(../images/work-background-light.png) 30% 0 no-repeat;
@@ -864,9 +898,9 @@
     float: left;
     height: 50px;
     border-radius: 3px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    // display: flex;
+    // align-items: center;
+    // justify-content: center;
     font-size: 22px;
     font-family: proximanovalight;
     color: white;
@@ -933,41 +967,81 @@
     display: inline-block;
     // background-color: green;
     height: 120px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    // display: flex;
+    // align-items: center;
+    // justify-content: center;
 }
 
 .partner-1 {
+    float: left;
     height: 60px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: calc(50% - 30px);
+    margin-right: calc(50% - 30px);
 }
 
 .partner-2 {
+    float: left;
     width: 160px;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    margin-left: calc(50% - 80px);
+    margin-right: calc(50% - 80px);
 }
 
 .partner-3 {
+    float: left;
     height: 60px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: calc(50% - 30px);
+    margin-right: calc(50% - 30px);
 }
 
 .partner-4 {
+    float: left;
     width: 160px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: calc(50% - 80px);
+    margin-right: calc(50% - 80px);
 }
 
 .partner-5 {
+    float: left;
     width: 160px;
+    margin-top: 44px;
+    margin-bottom: 44px;
+    margin-left: calc(50% - 80px);
+    margin-right: calc(50% - 80px);
 }
 
 .partner-6 {
+    float: left;
     width: 160px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: calc(50% - 80px);
+    margin-right: calc(50% - 80px);
 }
 
 .partner-7 {
+    float: left;
     height: 60px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: calc(50% - 31px);
+    margin-right: calc(50% - 31px);
 }
 
 .partner-8 {
+    float: left;
     width: 160px;
+    margin-top: 49px;
+    margin-bottom: 49px;
+    margin-left: calc(50% - 80px);
+    margin-right: calc(50% - 80px);
 }
 
 .partners-block-publishers {
@@ -986,12 +1060,18 @@
     width: 50%;
     display: inline-block;
     height: 120px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    // margin-left: calc(50% - 60px);
+    // margin-right: calc(50% - 60px);
+    // display: flex;
+    // align-items: center;
+    // justify-content: center;
 }
 
 .partner-publisher-icon {
+    // position: relative;
+    // float: left;
+    margin-left: calc(50% - 60px);
+    margin-right: calc(50% - 60px);
     width: 120px;
 }
 
