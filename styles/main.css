@@ -1324,7 +1324,7 @@
   width: 100%; }
 
 .category-block {
-  background: url(../images/background-first-block-light.svg) 70% 0 no-repeat;
+  background: url(../images/background-first-block-light.png) 70% 0 no-repeat;
   background-size: cover;
   height: 400px; }
 
@@ -1360,7 +1360,7 @@
 *********************************************/
 .introduction-block {
   position: relative;
-  background: url(../images/background-first-block.png) 70% 0 no-repeat;
+  background: url(../images/background-first-block-light.png) 70% 0 no-repeat;
   background-size: cover; }
 
 /*Titles*/

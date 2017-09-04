@@ -1117,31 +1117,10 @@ module.exports = '<topbar></topbar>\n' +
     '    </div>\n' +
     '</section>\n' +
     '\n' +
-    '<section class="vision-blc">\n' +
-    '    <div class="vision-blc-wrp">\n' +
-    '        <img class="vision-pc" src="../images/manifesto_light.svg">\n' +
-    '        <h1 class="vision-ttl">LA VISON</h1>\n' +
-    '        <div class="vision-cntt">\n' +
-    '            <h2 class="vision-sbtl">Lorem ipsum</h2>\n' +
-    '            <p class="vision-cp">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing</p>\n' +
-    '            <h2 class="vision-sbtl">\n' +
-    '                <br>Lorem ipsum</h2>\n' +
-    '            <p class="vision-cp">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing</p>\n' +
-    '            <h2 class="vision-sbtl">\n' +
-    '                <br>Lorem ipsum</h2>\n' +
-    '            <p class="vision-cp">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing</p>\n' +
-    '        </div>\n' +
-    '\n' +
-    '        <div class="wn-dsc">Envie d’en discuter ? N’hésite pas à envoyer un email à\n' +
-    '            <span style="color:#1580EF;cursor:pointer"><a class="wn-dsc-ml" href="mailto:brice@deepsight.io"> brice@deepsight.io</a></span>\n' +
-    '        </div>\n' +
-    '    </div>\n' +
-    '</section>\n' +
-    '\n' +
     '<section class="team-blc">\n' +
     '    <div class="section-blc-ttl-wrp">\n' +
     '        <h2 class="section-blc-ttl-wrp-ttl">Les confondateurs</h2>\n' +
-    '        <h3 class="section-blc-ttl-wrp-stl">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed fo eismod tempo</h3>\n' +
+    '        <h3 class="section-blc-ttl-wrp-stl"></h3>\n' +
     '    </div>\n' +
     '    <div class="co-founder-wrp">\n' +
     '        <div class="co-founder-ctn">\n' +
@@ -1169,27 +1148,11 @@ module.exports = '<topbar></topbar>\n' +
     '        </div>\n' +
     '    </div>\n' +
     '\n' +
-    '    <div class="section-blc-ttl-wrp">\n' +
-    '        <h2 class="section-blc-ttl-wrp-ttl">La Team</h2>\n' +
-    '        <h3 class="section-blc-ttl-wrp-stl">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed fo eismod tempo</h3>\n' +
-    '    </div>\n' +
-    '    <div class="co-founder-wrp">\n' +
-    '        <div class="co-founder-ctn">\n' +
-    '            <div class="tm-mmb-wrp-1" ng-repeat="member in vm.team_members">\n' +
-    '                <div class="tm-mmb-pc-wrp">\n' +
-    '                    <img class="team-mmb-pc" src="{{member.picture}}">\n' +
-    '                </div>\n' +
-    '                <div class="team-mmb-nm">{{member.name}}</div>\n' +
-    '                <div class="team-mmb-fc">{{member.job}}</div>\n' +
-    '            </div>\n' +
-    '        </div>\n' +
-    '    </div>\n' +
-    '\n' +
     '</section>\n' +
     '<section class="classic-cta-blc">\n' +
     '    <div class="classic-cta-blc-cp-wrp">\n' +
     '        <h2 class="classic-cta-blc-cp-ttl">Tu veux rejoindre l\'aventure Deepsight ?</h2>\n' +
-    '        <h3 class="classic-cta-blc-cp-stl">Lorem ipsum sit </h3>\n' +
+    '        <h3 class="classic-cta-blc-cp-stl">N\'attends plus pour rejoindre l\'aventure! </h3>\n' +
     '    </div>\n' +
     '    <div class="classic-cta-blc-cta-wrp">\n' +
     '        <div class="jobs-classic-cta-blc-cta">\n' +
