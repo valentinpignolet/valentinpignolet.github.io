@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="82px" height="82px" viewBox="0 0 82 82" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.3.2 (12043) - http://www.bohemiancoding.com/sketch -->
+    <title>Oval 800 + Oval 800 Copy + Shape</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.035 0" in="shadowBlurOuter1" type="matrix" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+        <linearGradient x1="17.4893661%" y1="82.4570524%" x2="100%" y2="26.5602741%" id="linearGradient-2">
+            <stop stop-color="#9E1D6C" stop-opacity="0.3" offset="0%"></stop>
+            <stop stop-color="#DD1111" stop-opacity="0.3" offset="100%"></stop>
+        </linearGradient>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-3">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.0647531703 0" in="shadowBlurOuter1" type="matrix" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-4">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetInner1"></feOffset>
+            <feGaussianBlur stdDeviation="0.5" in="shadowOffsetInner1" result="shadowBlurInner1"></feGaussianBlur>
+            <feComposite in="shadowBlurInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 1   0 0 0 0 1   0 0 0 0 1  0 0 0 0.168 0" in="shadowInnerInner1" type="matrix" result="shadowMatrixInner1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+                <feMergeNode in="shadowMatrixInner1"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Desktop-HD-Copy-5" sketch:type="MSArtboardGroup" transform="translate(-342.000000, -4071.000000)">
+            <g id="Group" sketch:type="MSLayerGroup" transform="translate(0.000000, 3694.000000)">
+                <g id="Rectangle-150-+-Rectangle-150-Copy-+-Rectangle-150-Copy-2" transform="translate(233.000000, 345.000000)" sketch:type="MSShapeGroup">
+                    <g id="petit-block">
+                        <g id="Oval-800-+-Oval-800-Copy-+-Shape" transform="translate(112.000000, 33.000000)">
+                            <circle id="Oval-800" fill="#FFFFFF" filter="url(#filter-1)" cx="38" cy="38" r="38"></circle>
+                            <path d="M38.5,70 C55.8969696,70 70,55.8969696 70,38.5 C70,21.1030304 55.8969696,7 38.5,7 C21.1030304,7 7,21.1030304 7,38.5 C7,55.8969696 21.1030304,70 38.5,70 Z" id="Oval-800-Copy" stroke="#E53F41" stroke-width="0.5" fill="url(#linearGradient-2)" filter="url(#filter-3)"></path>
+                            <path d="M25.7336138,47.1890316 C24.7451287,48.1775167 24.7451287,49.7783228 25.7336138,50.7668079 C26.2278564,51.2610504 26.8756009,51.5073283 27.5233454,51.5073283 C28.1710899,51.5073283 28.8188344,51.2610504 29.3130769,50.7668079 L37.6207374,42.4591473 L34.0412744,38.8813711 L25.7336138,47.1890316 L25.7336138,47.1890316 Z M46.4968613,31.7916051 L50.1117479,29.9209055 L52.00775,26.2587876 L50.2416341,24.4926717 L46.5795162,26.3886738 L44.7088166,30.0035604 L40.3028045,34.4095725 L42.0908492,36.1976172 L46.4968613,31.7916051 Z M47.2879867,41.3947547 C47.173282,41.3880074 47.0636377,41.361018 46.9472461,41.361018 C46.3298646,41.361018 45.744533,41.4875306 45.1979986,41.6899508 L34.810471,31.3024231 C35.0128911,30.7558887 35.1394037,30.1705571 35.1394037,29.5531756 C35.1394037,29.436784 35.1124144,29.3271398 35.105667,29.212435 C34.9268625,26.5792861 32.7575932,24.4926717 30.0788998,24.4926717 C29.2995822,24.4926717 28.5691828,24.683284 27.9096305,24.9987221 L31.2714919,28.3605835 C31.4486095,28.5377011 31.5700616,28.7468686 31.6510297,28.967844 C31.872005,29.5666703 31.7522398,30.263333 31.2714919,30.7457677 C30.9425592,31.0747004 30.5107295,31.2400102 30.0788998,31.2400102 C29.8798533,31.2400102 29.6824937,31.1961525 29.4935682,31.1253055 C29.2725929,31.0426506 29.0634254,30.9228853 28.8863077,30.7457677 L25.5244463,27.3839063 C25.2090082,28.0434586 25.0183959,28.773858 25.0183959,29.5531756 C25.0183959,32.231869 27.1050104,34.4011383 29.7381592,34.5799428 C29.852864,34.5866901 29.9625082,34.6136795 30.0788998,34.6136795 C30.6962813,34.6136795 31.2816129,34.4871669 31.8281473,34.2847467 L42.215675,44.6722744 C42.0132548,45.2188088 41.8867422,45.8041404 41.8867422,46.4215219 C41.8867422,46.5379135 41.9137316,46.6475577 41.9204789,46.7622625 C42.0992834,49.3954113 44.2685527,51.4820258 46.9472461,51.4820258 C47.7265637,51.4820258 48.4569631,51.2914135 49.1165154,50.9759754 L45.754654,47.614114 C45.5775364,47.4369963 45.4560843,47.2278288 45.3751162,47.0068535 C45.1541409,46.4080272 45.2739062,45.7113645 45.754654,45.2289298 C46.0835868,44.899997 46.5154164,44.7346873 46.9472461,44.7346873 C47.1462926,44.7346873 47.3436523,44.778545 47.5325777,44.849392 C47.7535531,44.9320469 47.9627206,45.0518122 48.1398382,45.2289298 L51.5016996,48.5907912 C51.8171377,47.9312389 52.00775,47.2008395 52.00775,46.4215219 C52.00775,43.7428285 49.9211356,41.5735592 47.2879867,41.3947547 L47.2879867,41.3947547 Z" id="Shape" fill="#E63F41" filter="url(#filter-4)"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
