@@ -127,6 +127,10 @@
   text-decoration: none !important;
   color: #fff; }
 
+.link-footer:link, .link-footer:visited, .link-footer:hover, .link-footer:active {
+  text-decoration: none !important;
+  color: #fff; }
+
 .footer-ttl {
   position: relative;
   float: left;

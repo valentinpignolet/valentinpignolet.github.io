@@ -149,9 +149,6 @@ module.exports = function (app) {
         vm.jobclass = "jobup";
 
         vm.showjob = function (indexparent, index) {
-            console.log(indexparent);
-            console.log(index);
-            console.log(vm.jobs[indexparent].jobs.length);
             for (var k = 0; k < vm.jobs[indexparent].jobs.length; k++) {
                 if (index === k) {
                     if (vm.jobs[indexparent].jobs[index].class === "jobup") {
@@ -204,7 +201,6 @@ module.exports = function (app) {
 
         for (var k = 0; k < vm.circle_wrp_1.length; k++) {
             (function (k) {
-                console.log(1);
                 vm.circle_wrp_1[k] = "circle-wrp-1-step0";
                 vm.circle_wrp_2[k] = "circle-wrp-2-step0";
 
@@ -288,7 +284,6 @@ module.exports = function (app) {
 
         for (var k = 0; k < vm.circle_wrp_1.length; k++) {
             (function (k) {
-                console.log(1);
                 vm.circle_wrp_1_r[k] = "circle-wrp-1-step0-r";
                 vm.circle_wrp_2_r[k] = "circle-wrp-2-step0-r";
 
@@ -374,7 +369,6 @@ module.exports = function (app) {
         for (var k = 0; k < vm.circle_wrp_1_b.length; k++) {
 
             (function (k) {
-                console.log(1);
                 vm.circle_wrp_1_b[k] = "circle-wrp-1-step0-b";
                 vm.circle_wrp_2_b[k] = "circle-wrp-2-step0-b";
 
@@ -470,7 +464,6 @@ module.exports = function (app) {
 
         setInterval(function () {
             $scope.$apply(vm.logs = vm.logs + 1000 + Math.round(1000 * Math.random()));
-            console.log(vm.logs);
         }, 2000);
 
         //howtosteps
@@ -549,8 +542,6 @@ module.exports = function (app) {
 
         setInterval(function () {
 
-            console.log(vm.counter);
-
             if (vm.counter === 2) {
                 vm.counter = 0;
             } else {
@@ -558,7 +549,6 @@ module.exports = function (app) {
             }
 
             for (var k = 0; k < vm.steps.length; k++) {
-                console.log("kikoo");
                 $scope.$apply(vm.steps_mobile = vm.steps[vm.counter]);
                 $scope.$apply(vm.step_bx_class_mobile = vm.step_bx_class[vm.counter]);
                 if (vm.counter === k) {
@@ -584,7 +574,7 @@ module.exports = function (app) {
                     $scope.$apply(vm.steps[k].classt = "step-bx-no-color");
                 }
             }
-        }, 7000);
+        }, 15000);
 
         //modal
 
@@ -702,7 +692,7 @@ module.exports = '<div class="soon-wrp" ng-if="modalboolean">\n' +
     '                <div class="footer-elmt">\n' +
     '                    <h3 class="footer-ttl" ng-click="ocmodal()">Support</h3>\n' +
     '                    <ul class="footer-l-sct">\n' +
-    '                        <li class="footer-l">Contact</li>\n' +
+    '                        <a href="mailto:contact@deepsight.io" class="link-footer"><li class="footer-l">Contact</li></a>\n' +
     '                        <li class="footer-l" ng-click="ocmodal()">FAQ</li>\n' +
     '                    </ul>\n' +
     '                </div>\n' +
@@ -770,13 +760,9 @@ module.exports = function (app) {
         var vm = this;
         vm.directivename = directivename;
 
-        console.log("hello");
-
         $scope.modalboolean = false;
 
         $scope.ocmodal = function () {
-            console.log("kikoo");
-            console.log($scope.modalboolean);
             if ($scope.modalboolean === false) {
                 $scope.modalboolean = true;
                 $document[0].body.className = "app-body-h";
@@ -970,7 +956,6 @@ module.exports = function (app) {
         $scope.modalboolean = false;
 
         $scope.ocmodal = function () {
-            console.log($scope.modalboolean);
             if ($scope.modalboolean === false) {
                 $scope.modalboolean = true;
                 $document[0].body.className = "app-body-h";
@@ -984,7 +969,6 @@ module.exports = function (app) {
         $scope.modalbooleanblog = false;
 
         $scope.ocmodalb = function () {
-            console.log($scope.modalboolean);
             if ($scope.modalbooleanblog === false) {
                 $scope.modalbooleanblog = true;
                 $document[0].body.className = "app-body-h";
@@ -1002,13 +986,11 @@ module.exports = function (app) {
 
         angular.element($window).bind("scroll", function () {
             if ($window.scrollY > 10) {
-                console.log("ok");
                 $scope.$apply($scope.top_bar_wrp = "top-bar-wrp-w");
                 $scope.$apply($scope.logo_dpsght = "logo-dpsght-pic-w");
                 $scope.$apply($scope.pg_lk = "pg-lk-w");
             }
             if ($window.scrollY <= 10) {
-                console.log("non");
                 $scope.$apply($scope.top_bar_wrp = "top-bar-wrp");
                 $scope.$apply($scope.logo_dpsght = "logo-dpsght-pic");
                 $scope.$apply($scope.pg_lk = "pg-lk");
@@ -1133,7 +1115,7 @@ module.exports = '<topbar></topbar>\n' +
     '            </div>\n' +
     '            <div class="tm-mmb-wrp">\n' +
     '                <div class="tm-mmb-pc-wrp">\n' +
-    '                    <img class="team-mmb-pc" src="../images/hector_pic_light.png">\n' +
+    '                    <img class="team-mmb-pc" src="../images/hector_pic.png">\n' +
     '                </div>\n' +
     '                <div class="team-mmb-nm">Hector de Lussac</div>\n' +
     '                <div class="team-mmb-fc">CRO</div>\n' +
@@ -1156,7 +1138,7 @@ module.exports = '<topbar></topbar>\n' +
     '    </div>\n' +
     '    <div class="classic-cta-blc-cta-wrp">\n' +
     '        <div class="jobs-classic-cta-blc-cta">\n' +
-    '            <a  href="mailto:jobs@deepsight.io"><div class="classic-cta-blc-cta-cp">DEEPSIGHT EMBAUCHE!</div></a>\n' +
+    '            <a  ui-sref="jobs"><div class="classic-cta-blc-cta-cp">DEEPSIGHT EMBAUCHE!</div></a>\n' +
     '        </div>\n' +
     '    </div>\n' +
     '</section>\n' +
@@ -1482,7 +1464,7 @@ module.exports = '<topbar>\n' +
     '<section class="howto-blc">\n' +
     '    <div class="section-blc-ttl-wrp">\n' +
     '        <h2 class="section-blc-ttl-wrp-ttl">Comment utiliser Deepsight?</h2>\n' +
-    '        <h3 class="section-blc-ttl-wrp-stl">Tous les outils pour une mise en oeuvre éclaire!</h3>\n' +
+    '        <h3 class="section-blc-ttl-wrp-stl">Tous les outils pour une mise en oeuvre éclair!</h3>\n' +
     '    </div>\n' +
     '    <div class="howto-wrp">\n' +
     '        <div class="htp-crt-stp">\n' +
