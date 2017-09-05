@@ -1101,7 +1101,7 @@ module.exports = '<topbar></topbar>\n' +
     '\n' +
     '<section class="team-blc">\n' +
     '    <div class="section-blc-ttl-wrp">\n' +
-    '        <h2 class="section-blc-ttl-wrp-ttl">Les confondateurs</h2>\n' +
+    '        <h2 class="section-blc-ttl-wrp-ttl">Les cofondateurs</h2>\n' +
     '        <h3 class="section-blc-ttl-wrp-stl"></h3>\n' +
     '    </div>\n' +
     '    <div class="co-founder-wrp">\n' +
@@ -1110,22 +1110,22 @@ module.exports = '<topbar></topbar>\n' +
     '                <div class="tm-mmb-pc-wrp">\n' +
     '                    <img class="team-mmb-pc" src="../images/brice_pic.png">\n' +
     '                </div>\n' +
-    '                <div class="team-mmb-nm">Brice KONDA</div>\n' +
-    '                <div class="team-mmb-fc">CEO</div>\n' +
+    '                <div class="team-mmb-nm">Brice Konda</div>\n' +
+    '                <div class="team-mmb-fc">Co-Founder & CEO</div>\n' +
     '            </div>\n' +
     '            <div class="tm-mmb-wrp">\n' +
     '                <div class="tm-mmb-pc-wrp">\n' +
     '                    <img class="team-mmb-pc" src="../images/hector_pic.png">\n' +
     '                </div>\n' +
     '                <div class="team-mmb-nm">Hector de Lussac</div>\n' +
-    '                <div class="team-mmb-fc">CRO</div>\n' +
+    '                <div class="team-mmb-fc">Co-Founder & CRO</div>\n' +
     '            </div>\n' +
     '            <div class="tm-mmb-wrp">\n' +
     '                <div class="tm-mmb-pc-wrp">\n' +
     '                    <img class="team-mmb-pc" src="../images/valentin_pic.png">\n' +
     '                </div>\n' +
     '                <div class="team-mmb-nm">Valentin Pignolet</div>\n' +
-    '                <div class="team-mmb-fc">CTO</div>\n' +
+    '                <div class="team-mmb-fc">Co-Founder & CTO</div>\n' +
     '            </div>\n' +
     '        </div>\n' +
     '    </div>\n' +
@@ -1138,7 +1138,7 @@ module.exports = '<topbar></topbar>\n' +
     '    </div>\n' +
     '    <div class="classic-cta-blc-cta-wrp">\n' +
     '        <div class="jobs-classic-cta-blc-cta">\n' +
-    '            <a  ui-sref="jobs"><div class="classic-cta-blc-cta-cp">DEEPSIGHT EMBAUCHE!</div></a>\n' +
+    '            <a  ui-sref="jobs"><div class="classic-cta-blc-cta-cp">DEEPSIGHT RECRUTE!</div></a>\n' +
     '        </div>\n' +
     '    </div>\n' +
     '</section>\n' +
@@ -1151,7 +1151,7 @@ module.exports = '<topbar>\n' +
     '<section class="introduction-block">\n' +
     '    <div class="title-wrp">\n' +
     '        <h1 class="intro-ttl">Custom Audiences à la demande</h1>\n' +
-    '        <h2 class="intro-sttl">Analyse off-site des comportements avant-achat de vos clients pour vos campagnes d’acquisition</h2>\n' +
+    '        <h2 class="intro-sttl">Analyse off-site des comportements avant-achat de vos clients <br> pour un meilleur ciblage de vos campagnes d’acquisition</h2>\n' +
     '    </div>\n' +
     '    <div class="cta-wrp">\n' +
     '        <div class="cta">\n' +
