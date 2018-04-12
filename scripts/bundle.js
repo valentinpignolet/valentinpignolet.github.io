@@ -15,7 +15,7 @@ require=(function e(t,n,r){function s(o,u){if(!n[o]){if(!t[o]){var a=typeof requ
 
 },{}],6:[function(require,module,exports){
 module.exports = '<div class="footer-lght">\n' +
-    '    <div class="footer-lght-copyright">Copyright 2018 LOGIDDATA. All right reserved</div>\n' +
+    '    <div class="footer-lght-copyright">Copyright 2018 Deepsight. All right reserved</div>\n' +
     '</div>\n' +
     '</footer>';
 },{}],7:[function(require,module,exports){
@@ -55,7 +55,7 @@ module.exports = '<div class="soon-wrp" ng-if="modalboolean">\n' +
     '        <a ng-class="pg_lk" ui-sref="home">\n' +
     '            <div class="logo-dpsght-wrapper">\n' +
     '                <div ng-class="logo_dpsght"></div>\n' +
-    '                <div class="logo-dpsght-title">LOGIDDATA</div>\n' +
+    '                <div class="logo-dpsght-title">Deepsight</div>\n' +
     '            </div>\n' +
     '        </a>\n' +
     '\n' +
@@ -192,7 +192,7 @@ module.exports = '<topbar>\n' +
     '            <h2 class="section-blc-ttl-wrp-ttl">Ayez la main sur les événements critiques</h2>\n' +
     '            <h3 class="section-blc-ttl-wrp-stl">\n' +
     '                De nombreux événements ont un impact déterminant sur votre supply chain.\n' +
-    '                <br> LOGIDDATA vous donne les outils pour une prise de décision efficace.</h3>\n' +
+    '                <br> Deepsight vous donne les outils pour une prise de décision efficace.</h3>\n' +
     '        </div>\n' +
     '\n' +
     '        <div class="vps-wrp">\n' +
@@ -200,7 +200,7 @@ module.exports = '<topbar>\n' +
     '                <div class="vp-wrp">\n' +
     '                    <img class="vp-pc" src="../images/events.png">\n' +
     '                    <div class="vp-ttl">Collect</div>\n' +
-    '                    <div class="vp-stl"> LOGIDDATA agrège des milliers d\'événements de la vie réelle comme la météo, les concerts ou les événements sportifs.</div>\n' +
+    '                    <div class="vp-stl"> Deepsight agrège des milliers d\'événements de la vie réelle comme la météo, les concerts ou les événements sportifs.</div>\n' +
     '                </div>\n' +
     '\n' +
     '                <div class="vp-wrp">\n' +
@@ -267,7 +267,7 @@ module.exports = '<topbar>\n' +
     '\n' +
     '<section class="howto-blc">\n' +
     '    <div class="section-blc-ttl-wrp" style="margin-bottom:150px">\n' +
-    '        <h2 class="section-blc-ttl-wrp-ttl"  id="1who">Pourquoi utiliser LOGIDDATA?</h2>\n' +
+    '        <h2 class="section-blc-ttl-wrp-ttl"  id="1who">Pourquoi utiliser Deepsight?</h2>\n' +
     '    </div>\n' +
     '\n' +
     '    <div class="who-block">\n' +
@@ -279,7 +279,7 @@ module.exports = '<topbar>\n' +
     '                Restauration commerciale.\n' +
     '            </h1>\n' +
     '            <h2 class="who-txt-txt">\n' +
-    '                LOGIDDATA vous permet de tirer parti des différents facteurs d\'influence sur vos restaurants pour mieux piloter vos prévisions et bénéficier de :\n' +
+    '                Deepsight vous permet de tirer parti des différents facteurs d\'influence sur vos restaurants pour mieux piloter vos prévisions et bénéficier de :\n' +
     '            </h2>\n' +
     '            <ul class="who-txt-lst-wrp">\n' +
     '                <li class="who-txt-lst-itm" id="2who">\n' +
@@ -301,7 +301,7 @@ module.exports = '<topbar>\n' +
     '                E-commerce\n' +
     '            </h1>\n' +
     '            <h2 class="who-txt-txt">\n' +
-    '                LOGIDDATA donne aux e-commerçants les outils pour faire une lecture éclairée des facteurs de sensibilités aux événements extérieurs (concurrence, météo, promotions ..) et parvenir à mieux :\n' +
+    '                Deepsight donne aux e-commerçants les outils pour faire une lecture éclairée des facteurs de sensibilités aux événements extérieurs (concurrence, météo, promotions ..) et parvenir à mieux :\n' +
     '            </h2>\n' +
     '            <ul class="who-txt-lst-wrp" id="3who">\n' +
     '                <li class="who-txt-lst-itm">\n' +
@@ -323,7 +323,7 @@ module.exports = '<topbar>\n' +
     '                FASHION\n' +
     '            </h1>\n' +
     '            <h2 class="who-txt-txt">\n' +
-    '                LOGIDDATA aide les acteurs du retail à mieux gérer leur stocks et les cycles de vie produit et permet de :\n' +
+    '                Deepsight aide les acteurs du retail à mieux gérer leur stocks et les cycles de vie produit et permet de :\n' +
     '            </h2>\n' +
     '            <ul class="who-txt-lst-wrp">\n' +
     '                <li class="who-txt-lst-itm">\n' +
@@ -342,7 +342,7 @@ module.exports = '<topbar>\n' +
     '\n' +
     '<section class="classic-cta-blc">\n' +
     '    <div class="classic-cta-blc-cp-wrp">\n' +
-    '        <h2 class="classic-cta-blc-cp-ttl">Commencez à utiliser LOGIDDATA dès maintenant</h2>\n' +
+    '        <h2 class="classic-cta-blc-cp-ttl">Commencez à utiliser Deepsight dès maintenant</h2>\n' +
     '    </div>\n' +
     '    <div class="classic-cta-blc-cta-wrp">\n' +
     '        <div class="classic-cta-blc-cta">\n' +
