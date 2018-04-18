@@ -208,22 +208,31 @@ module.exports = '<topbar></topbar>\n' +
     '                    <img class="team-mmb-pc" src="../images/brice_pic.png">\n' +
     '                </div>\n' +
     '                <div class="team-mmb-nm">Brice Konda</div>\n' +
-    '                <div class="team-mmb-fc"><span style="color :black">Cofondateur & CEO</span></div>\n' +
-    '                                <div class="team-mmb-fc"><span style="color :#18A07A">Centrale Paris<span></span></div>\n' +
+    '                <div class="team-mmb-fc">\n' +
+    '                    <span style="color :black">Cofondateur & CEO</span>\n' +
+    '                </div>\n' +
+    '                <div class="team-mmb-fc">\n' +
+    '                    <span style="color :#18A07A">Centrale Paris\n' +
+    '                        <span></span>\n' +
+    '                </div>\n' +
     '            </div>\n' +
     '            <div class="tm-mmb-wrp">\n' +
     '                <div class="tm-mmb-pc-wrp">\n' +
     '                    <img class="team-mmb-pc" src="../images/valentin_pic.png">\n' +
     '                </div>\n' +
     '                <div class="team-mmb-nm">Valentin Pignolet</div>\n' +
-    '                <div class="team-mmb-fc"><span style="color :black">Cofondateur & CTO</span></div>\n' +
-    '                                <div class="team-mmb-fc"><span style="color :#18A07A">Centrale Paris<span></span></div>\n' +
+    '                <div class="team-mmb-fc">\n' +
+    '                    <span style="color :black">Cofondateur & CTO</span>\n' +
+    '                </div>\n' +
+    '                <div class="team-mmb-fc">\n' +
+    '                    <span style="color :#18A07A">Centrale Paris\n' +
+    '                        <span></span>\n' +
+    '                </div>\n' +
     '            </div>\n' +
     '        </div>\n' +
     '    </div>\n' +
     '\n' +
     '</section>\n' +
-    '\n' +
     '\n' +
     '<section class="classic-cta-blc">\n' +
     '    <div class="classic-cta-blc-cp-wrp">\n' +
@@ -232,7 +241,9 @@ module.exports = '<topbar></topbar>\n' +
     '    </div>\n' +
     '    <div class="classic-cta-blc-cta-wrp">\n' +
     '        <div class="jobs-classic-cta-blc-cta">\n' +
-    '            <a href="mailto:jobs@deepsight.io"><span class="classic-cta-blc-cta-cp">DEEPSIGHT RECRUTE!</span></a>\n' +
+    '            <a href="mailto:jobs@deepsight.io">\n' +
+    '                <span class="classic-cta-blc-cta-cp">DEEPSIGHT RECRUTE!</span>\n' +
+    '            </a>\n' +
     '        </div>\n' +
     '    </div>\n' +
     '</section>\n' +
@@ -246,7 +257,7 @@ module.exports = '<topbar>\n' +
     '    <div class="intro-wrp-cp">\n' +
     '        <div class="title-wrp">\n' +
     '            <h1 class="intro-ttl">Le pilotage de votre\n' +
-    '                <br> supply chain réinventé</h1>\n' +
+    '                <br> activité réinventé</h1>\n' +
     '            <h2 class="intro-sttl">Optimisez vos ressources en fonction des événements extérieurs qui influencent votre activité. </h2>\n' +
     '        </div>\n' +
     '\n' +
@@ -272,7 +283,7 @@ module.exports = '<topbar>\n' +
     '        <div class="section-blc-ttl-wrp">\n' +
     '            <h2 class="section-blc-ttl-wrp-ttl">Ayez la main sur les événements critiques</h2>\n' +
     '            <h3 class="section-blc-ttl-wrp-stl">\n' +
-    '                De nombreux événements ont un impact déterminant sur votre supply chain.\n' +
+    '                De nombreux événements ont un impact déterminant sur votre activité.\n' +
     '                <br> Deepsight vous donne les outils pour une prise de décision efficace.</h3>\n' +
     '        </div>\n' +
     '\n' +
@@ -302,7 +313,7 @@ module.exports = '<topbar>\n' +
     '    <div class="dshb-block">\n' +
     '        <div class="section-blc-ttl-wrp">\n' +
     '            <h2 class="section-blc-ttl-wrp-ttl">Une solution d\'<i>Event Intelligence</i>\n' +
-    '                <br> au service de votre supply chain</h2>\n' +
+    '                <br> au service de votre activité</h2>\n' +
     '            <h3 class="section-blc-ttl-wrp-stl">\n' +
     '            </h3>\n' +
     '        </div>\n' +
@@ -334,7 +345,7 @@ module.exports = '<topbar>\n' +
     '\n' +
     '    <div class="classic-cta-blc-cp-wrp">\n' +
     '        <h2 class="classic-cta-blc-cp-ttl-w">Ne vous laissez pas dépasser par les événéments</h2>\n' +
-    '        <h3 class="classic-cta-blc-cp-stl-w">La Business Intelligence moderne et intuitive pour votre supply chain</h3>\n' +
+    '        <h3 class="classic-cta-blc-cp-stl-w">La Business Intelligence moderne et intuitive pour votre le pilotage de votre activité</h3>\n' +
     '    </div>\n' +
     '    <div class="classic-cta-blc-cta-wrp">\n' +
     '        <div class="classic-cta-blc-cta">\n' +
