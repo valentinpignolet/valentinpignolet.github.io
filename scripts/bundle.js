@@ -8,15 +8,75 @@ require=(function e(t,n,r){function s(o,u){if(!n[o]){if(!t[o]){var a=typeof requ
 "use strict";var controllername="jobs";module.exports=function(e){function s(e,s,t,a,i,r,o,u){var d=this;d.controllername=n,d.jobs=[{category:"Engineering",jobs:[{name:"Data Scientist",class:"jobup",location:"Paris, France",few_words:["Deepsight a pour ambition de révolutionner le ciblage de nouveaux prospects sur le web en plaçant l’analyse des comportements client au cœur des démarches d’acquisition marketing. L’algorithme de Deepsight traite chaque jour des téraoctets de données et crée des audiences personnalisées de nouveaux prospects au taux d’engagement inégalé par les acteurs du marché.","Créé en 2016 par deux Centraliens et un ex-directeur commercial expérimenté de l’industrie publicitaire, Deepsight a lancé après un an de bêta test sa solution de rupture, Deepsight Custom Audiences. En pleine croissance, Deepsight compte déjà plus d’une trentaine de partenaires et cherche donc à renforcer son équipe.","Deepsight est soutenu par des entrepreneurs à succès, 50 partners Capital et est hébergé au sein du Founders Program de Station F."],mission:[{description:"Nous recherchons une personne avide de défis, souhaitant continuer à monter en compétences sur de gros volumes de données et qui prendra à son compte de nombreux sujets clés pour la sociét",missions:["Optimisation de nos algorithmes existants afin de créer des audiences toujours plus performantes","Design, développement et mise en production de nouveaux algorithmes","Exploration de la donnée brute afin d’en extraire toujours plus de valeur, et être force de proposition sur de nouvelles applications/produits","Travailler main dans la main avec le pôle produit et le pôle engineering pour la collecte de données et la définition des nouveaux cas d’usage","Assurer une veille technique sur des articles de recherches pertinents tout en pouvant rapidement les implémenter pour un POC"]}],profile:["Tu as un background académique technique (Master en Mathématiques ou Informatique)","Tu justifies au moins d’une expérience professionnelle pertinente en data science pendant laquelle tu as planché sur des vrais données","Tu maîtrises parfaitement un langage statistique (python de préférence)","Tu es autonome tout en sachant naturellement bosser en équipe.","Tu as l'esprit entrepreneurial. Chez Deepsight, tout le monde participe à la construction du produit et à la croissance de la société. Chacun est force de proposition et donne vie à ses idées","Tu es curieux et avide de connaissance. La découverte de nouvelle techno ne te fait pas peur et tu es toujours enclin à partager et à apprendre sur de nouveaux sujets","Nice to have: avoir travaillé sur de la donnée web, maîtrise d’un framework de deep learning, Spark, Kafka"],why:["Deepsight est jeune et l’aventure ne fait que commencer. Rejoindre Deepsight maintenant te permettra d’avoir rapidement d’importantes responsabilités. Tu auras l’opportunité d’échanger directement avec nos clients afin de résoudre leurs problèmes actuels. Enfin, tu évolueras dans une ambiance jeune, dynamique, un cadre exceptionnel à station F et bénéficieras de nombreux avantages en nature!","Si cette offre correspond à tes attentes, n’attends plus et envoie ton cv ainsi que quelques lignes de présentation à jobs@deepsight.io. Nous reviendrons vers toi dans les prochaines 24h!"]},{name:"API Engineer",class:"jobup",location:"Paris, France",few_words:["Deepsight a pour ambition de révolutionner le ciblage de nouveaux prospects sur le web en plaçant l’analyse des comportements client au cœur des démarches d’acquisition marketing. L’algorithme de Deepsight traite chaque jour des téraoctets de données et crée des audiences personnalisées de nouveaux prospects au taux d’engagement inégalé par les acteurs du marché.","Créé en 2016 par deux Centraliens et un ex-directeur commercial expérimenté de l’industrie publicitaire, Deepsight a lancé après un an de bêta test sa solution de rupture, Deepsight Custom Audiences. En pleine croissance, Deepsight compte déjà plus d’une trentaine de partenaires et cherche donc à renforcer son équipe.","Deepsight est soutenu par des entrepreneurs à succès, 50 partners Capital et est hébergé au sein du Founders Program de Station F."],mission:[{description:"Deepsight collecte et analyse des milliards de points de données en temps réel chaque jour et est donc à la recherche d’un API Engineer passionné, avide de défis qui prendra à son compte de nombreux sujets clefs pour la société",missions:["Designer, créer, implémenter et maintenir les api d’import et d’export de données ","Optimisation et maintenance des tags de collecte de données de Deepsight","Créer des API pour un usage interne et servir les autres pôles de Deepsight","Travailler main dans la main avec le pôle produit et l’équipe de Data Science ","Développer des proofs of concept de manière régulière pour les tests clients de Deepsight"]}],profile:["Tu es junior ou expérimenté et tu as déjà pris part à des projets en équipe impliquant la mise en production d’applications web.","Tu as l'esprit entrepreneurial. Chez Deepsight, tout le monde participe à la construction du produit et à la croissance de la société. Chacun est force de proposition et donne vie à ses idées.","Tu comprends les enjeux d’une entreprise. L’api engineer pose les bases d’une architecture qui sert l’ensemble des facettes métier de Deepsight. Savoir communiquer et interagir avec tous les pôles est donc un must have.","Tu es rigoureux. La mise en place des API est une des pierres angulaires de Deepsight. Avoir un code propre, maintenable et scalable est capital.","Tu es curieux et avide de connaissance. La découverte de nouvelle techno ne te fait pas peur et tu es toujours enclin à partager et à apprendre sur de nouveaux sujets.","Compétences clés: NodeJS, à l’aise sur AWS"],why:["Deepsight est jeune et l’aventure ne fait que commencer. Les défis sur le chemin de l’hypercroissance sont nombreux et l’ambition est notre maître mot. Tu évolueras dans une ambiance jeune, dynamique, un cadre exceptionnel à station F et bénéficieras de nombreux avantages en nature!","Si cette offre correspond à tes attentes, n’attends plus et envoie ton cv ainsi que quelques lignes de présentation à jobs@deepsight.io. Nous reviendrons vers toi dans les prochaines 24h!"]},{name:"Full-Stack developer",class:"jobup",location:"Paris, France",few_words:["Deepsight a pour ambition de révolutionner le ciblage de nouveaux prospects sur le web en plaçant l’analyse des comportements client au cœur des démarches d’acquisition marketing. L’algorithme de Deepsight traite chaque jour des téraoctets de données et crée des audiences personnalisées de nouveaux prospects au taux d’engagement inégalé par les acteurs du marché.","Créé en 2016 par deux Centraliens et un ex-directeur commercial expérimenté de l’industrie publicitaire, Deepsight a lancé après un an de bêta test sa solution de rupture, Deepsight Custom Audiences. En pleine croissance, Deepsight compte déjà plus d’une trentaine de partenaires et cherche donc à renforcer son équipe.","Deepsight est soutenu par des entrepreneurs à succès, 50 partners Capital et est hébergé au sein du Founders Program de Station F."],mission:[{description:"Deepsight édite une plateforme de création d’audience à destination de ses partenaires et est donc à la recherche d’un développeur Full-stack, qui aime les défis, prendra à son compte les développements futurs de la plateforme Deepsight Custom Audiences et traitera les sujets suivants",missions:["Développement et maintenance de la plateforme Deepsight Custom Audiences","Développement d’outils interne à destination des pôles métier de Deepsight","Travailler main dans la main avec l’équipe Data Science de Deepsight","Participer à la roadmap produit et au design nouvelles fonctionnalités","Développer des proofs of concept de manière régulière pour les tests clients de Deepsight"]}],profile:["Tu es junior ou expérimenté et tu as déjà pris part à des projets en équipe impliquant la mise en production d’applications web.","Tu as l'esprit entrepreneurial. Chez Deepsight, tout le monde participe à la construction du produit et à la croissance de la société. Chacun est force de proposition et donne vie à ses idées.","Tu comprends les enjeux d’une entreprise. Le développeur Full Stack aura la responsabilité du produit qui fait interface avec client. Une bonne compréhension des différentes dynamiques de l’entreprise est donc clef.","Tu es rigoureux et aime les tests! ","Tu es curieux et avide de connaissance. La découverte de nouvelle techno ne te fait pas peur et tu es toujours enclin à partager et à apprendre sur de nouveaux sujets.","Compétences clefs: React, AngularJs, Javascript, excellente maitrise du CSS, NodeJS, Loopback, connaissance AWS et linux sont un plus"],why:["Deepsight est jeune et l’aventure ne fait que commencer. Les défis sur le chemin de l’hypercroissance sont nombreux et l’ambition est notre maître mot. Tu évolueras dans une ambiance jeune, dynamique, un cadre exceptionnel à station F et bénéficieras de nombreux avantages en nature!","Si cette offre correspond à tes attentes, n’attends plus et envoie ton cv ainsi que quelques lignes de présentation à jobs@deepsight.io. Nous reviendrons vers toi dans les prochaines 24h!"]},{name:"Full-Stack developer (Intern)",class:"jobup",location:"Paris, France",few_words:["Deepsight a pour ambition de révolutionner le ciblage de nouveaux prospects sur le web en plaçant l’analyse des comportements client au cœur des démarches d’acquisition marketing. L’algorithme de Deepsight traite chaque jour des téraoctets de données et crée des audiences personnalisées de nouveaux prospects au taux d’engagement inégalé par les acteurs du marché.","Créé en 2016 par deux Centraliens et un ex-directeur commercial expérimenté de l’industrie publicitaire, Deepsight a lancé après un an de bêta test sa solution de rupture, Deepsight Custom Audiences. En pleine croissance, Deepsight compte déjà plus d’une trentaine de partenaires et cherche donc à renforcer son équipe.","Deepsight est soutenu par des entrepreneurs à succès, 50 partners Capital et est hébergé au sein du Founders Program de Station F."],mission:[{description:"Tu prendras part aussi bien aux sujets back-end que front-end. Nous recherchons un stagiaire ambitieux, motivé et sympathique qui traitera les sujets suivants :",missions:["Développement de nouvelles fonctionnalités aux côtés de l’équipe produit et back-end","Participer à la roadmap produit et au design nouvelles fonctionnalités","Développer des proofs of concept de manière régulière pour les tests clients de Deepsight"]}],profile:["Tu as déjà pris part à un projet de développement web dans le cadre d’un stage, projet scolaire, ou projet freelance","Tu a déjà développé en React, Javascript, NodeJs. Le framework loopback est un plus","Tu as l'esprit entrepreneurial et est force de proposition","Tu es curieux et toujours enclin à toucher à de nouvelles technologies","Tu as un profil  Bac+4/5 Grande école ou École d’informatique"],why:["Deepsight est jeune et l’aventure ne fait que commencer. Quoi de mieux qu’une start-up en hyper croissance où tu auras de vraiEs responsabilités pour t’épanouir et prendre la mesure réelle de ce qu’est apprendre en entreprise. Tu évolueras au plus proche des co-fondateurs et des équipes techniques, dans une ambiance jeune, dynamique dans cadre exceptionnel à Station F.","Si cette offre correspond à tes attentes, n’attends plus et envoie ton cv ainsi que quelques lignes de présentation à jobs@deepsight.io. Nous reviendrons vers toi dans les prochaines 24h!"]}]},{category:"Business",jobs:[{name:"Sales Manager",class:"jobup",location:"Paris, France",few_words:["Deepsight a pour ambition de révolutionner le ciblage de nouveaux prospects sur le web en plaçant l’analyse des comportements client au cœur des démarches d’acquisition marketing. L’algorithme de Deepsight traite chaque jour des téraoctets de données et crée des audiences personnalisées de nouveaux prospects au taux d’engagement inégalé par les acteurs du marché.","Créé en 2016 par deux Centraliens et un ex-directeur commercial expérimenté de l’industrie publicitaire, Deepsight a lancé après un an de bêta test sa solution de rupture, Deepsight Custom Audiences. En pleine croissance, Deepsight compte déjà plus d’une trentaine de partenaires et cherche donc à renforcer son équipe.","Deepsight est soutenu par des entrepreneurs à succès, 50 partners Capital et est hébergé au sein du Founders Program de Station F."],mission:[{description:"Le poste de Sales Manager est un poste clé dans la réussite et le développement de Deepsight sur son marché. Point de contact référent, le/la candidat(e) sera en charge de la commercialisation de la solution Deepsight Custom Audiences auprès des annonceurs et des agences media. Le(a) Sales Manager est responsable de l’atteinte des objectifs de chiffre d’affaires de Deepsight Custom Audiences ainsi que du développement des revenus liés aux futures solutions de Deepsight et devra prendre à son compte les sujets suivant : ",missions:["Définition d’un plan d’action commercial adapté à la stratégie globale de Deepsight","Prospection commerciale et prise de rendez-vous auprès d’interlocuteurs cible","Compréhension des problématiques clients et présentation des solutions de Deepsight","Proposition et négociation de contrat de partenariats","Signature des contrats et atteinte des objectifs commerciaux.","Préparation de la mise en place des opérations en lien avec l’équipe en charge des opérations","Suivi et reporting des opérations auprès des clients et renouvellement des opérations"]}],profile:["Vous justifiez d’une expérience dans la publicité digitale, de préférence en régie ou en trading desk, et acquis des compétences solides dans la commercialisation de solutions digitales, ce poste est fait pour vous !","Doté d’un vrai tempérament commercial et d’un sens aigu du conseil, vous êtes capable de vous surpasser pour dépasser vos objectifs de chiffre d’affaires. ","Sens de l’écoute, de la curiosité avec une très bonne communication orale et écrite, vous développerez des relations privilégiées avec les clients de Deepsight. ","Doté d’une bonne compréhension des enjeux techniques, vous êtes capable d’accompagner le client sur la préparation de ses opérations avec Deepsight. ","Ambitieux, rigoureux, dynamique et sympathique, vous souhaitez prendre position dans une start-up et évoluer avec sa croissance ","Vous êtes très à l’aise en anglais, à l’oral comme à l’écrit"],why:["Si vous êtes prêt à relever un nouveau challenge, à vous investir dans une société en phase de croissance, envoyez un mail à jobs@deepsight.io accompagné de votre CV."]},{name:"Operations Manager",class:"jobup",location:"Paris, France",few_words:["Deepsight a pour ambition de révolutionner le ciblage de nouveaux prospects sur le web en plaçant l’analyse des comportements client au cœur des démarches d’acquisition marketing. L’algorithme de Deepsight traite chaque jour des téraoctets de données et crée des audiences personnalisées de nouveaux prospects au taux d’engagement inégalé par les acteurs du marché.","Créé en 2016 par deux Centraliens et un ex-directeur commercial expérimenté de l’industrie publicitaire, Deepsight a lancé après un an de bêta test sa solution de rupture, Deepsight Custom Audiences. En pleine croissance, Deepsight compte déjà plus d’une trentaine de partenaires et cherche donc à renforcer son équipe.","Deepsight est soutenu par des entrepreneurs à succès, 50 partners Capital et est hébergé au sein du Founders Program de Station F."],mission:[{description:"Le poste d’Operations Manager est un poste clé dans la réussite et le développement de Deepsight sur son marché. Point de contact référent, le/la candidat(e) sera en charge de la mise en place des opérations de Deepsight Custom Audiences et de leur développement auprès des clients de Deepsight. L'Operations manager devra prendre à son compte les sujets suivant :",missions:["Définition du mode de connexion aux données des partenaires de Deepsight","Vérification et contrôle de la réception de données en vue de leur processing algorithmique","Définition de la stratégie de création d’audience personnalisés selon les objectifs clients","Création et suivi opérationnel de la création des segments d’audience","Mise à disposition des segments d’audience dans les solutions partenaires (SSP, DMP, etc.)","Activation des segments d’audiences (media trading)","Reporting analytique de l’activation des segments de custom audiences","Proposition et création de nouvelles stratégies (traitement de nouvelles typologies utilisateurs, scénarios marketing, etc.)","Développement des partenariats (up selling et cross selling)"]}],profile:["Vous justifiez d’une expérience dans la publicité digitale, de préférence en régie ou en trading desk, et acquis des compétences solides dans la gestion de campagnes digitales, ce poste est fait pour vous !","Doté de compétences techniques, vous gérez les opérations depuis la récupération des données jusqu’au reporting en passant par l’activation media","Rigoureux et méthodique, vous êtes expert en analyse et synthèse de données.","Sens de l’écoute, de la curiosité avec une très bonne communication orale et écrite, vous développerez des relations privilégiées avec les clients de Deepsight. ","Doté d’un tempérament commercial et d’un sens du conseil, vous êtes capable de développer le chiffre d’affaires.","Vous êtes très à l’aise en anglais, à l’oral comme à l’écrit"],why:["Si vous êtes prêt à relever un nouveau challenge, à vous investir dans une société en phase de croissance, envoyez un mail à jobs@deepsight.io accompagné de votre CV."]}]}],d.jobclass="jobup",d.showjob=function(e,s){for(var n=0;n<d.jobs[e].jobs.length;n++)s===n&&("jobup"===d.jobs[e].jobs[s].class?d.jobs[e].jobs[s].class="jobdown":"jobdown"===d.jobs[e].jobs[s].class&&(d.jobs[e].jobs[s].class="jobup"))}}var n=e.name+"."+controllername,t=["$document","$location","$window","$anchorScroll","$timeout","$rootScope","$scope","$state"];s.$inject=t,e.controller(n,s)};
 
 },{}],4:[function(require,module,exports){
-"use strict";var controllername="mainView";module.exports=function(p){function s(p,s,r,c,t,l,i,a){var _=this;_.controllername=e,_.dshb1=!0,_.dshb3=!1,_.dshb3=!1,_.nextview=function(p){0===p&&(_.dshb1=!0,_.dshbv[0].classv="dshb-step-b",_.dshbv[0].classttl="dshb-ttl-b",_.dshbv[0].classstl="dshb-stl-b",_.dshb2=!1,_.dshbv[1].classv="dshb-step",_.dshbv[1].classttl="dshb-ttl",_.dshbv[1].classstl="dshb-stl",_.dshb3=!1,_.dshbv[2].classv="dshb-step",_.dshbv[2].classttl="dshb-ttl",_.dshbv[2].classstl="dshb-stl"),1===p&&(_.dshb1=!1,_.dshbv[0].classv="dshb-step",_.dshbv[0].classttl="dshb-ttl",_.dshbv[0].classstl="dshb-stl",_.dshb2=!0,_.dshbv[1].classv="dshb-step-b",_.dshbv[1].classttl="dshb-ttl-b",_.dshbv[1].classstl="dshb-stl-b",_.dshb3=!1,_.dshbv[2].classv="dshb-step",_.dshbv[2].classttl="dshb-ttl",_.dshbv[2].classstl="dshb-stl"),2===p&&(_.dshb1=!1,_.dshbv[0].classv="dshb-step",_.dshbv[0].classttl="dshb-ttl",_.dshbv[0].classstl="dshb-stl",_.dshb2=!1,_.dshbv[1].classv="dshb-step",_.dshbv[1].classttl="dshb-ttl",_.dshbv[1].classstl="dshb-stl",_.dshb3=!0,_.dshbv[2].classv="dshb-step-b",_.dshbv[2].classttl="dshb-ttl-b",_.dshbv[2].classstl="dshb-stl-b")},_.dshbv=[{title:"Choisissez la donnée",img:"../images/dashboard-img-lght.png",content:"Météo, promotions marketing, événements sportifs, musicaux et calendaires.",classv:"dshb-step-b",classttl:"dshb-ttl-b",classstl:"dshb-stl-b"},{title:"Mesurez l'impact sur vos historiques de ventes",img:"../images/dashboard-img-1-lght.png",content:"Quantification de l'influence des données sélectionnées sur vos ventes passées.",classv:"dshb-step",classttl:"dshb-ttl",classstl:"dshb-stl"},{title:"Prenez la bonne décision",img:"../images/dashboard-img-2-lght.png",content:" Des alertes push et des tableaux de bord pour piloter le futur de votre activité.",classv:"dshb-step",classttl:"dshb-ttl",classstl:"dshb-stl"}],_.circle_wrp_1=["circle-wrp-1-step0","circle-wrp-1-step0","circle-wrp-1-step0","circle-wrp-1-step0","circle-wrp-1-step0","circle-wrp-1-step0","circle-wrp-1-step0","circle-wrp-1-step0","circle-wrp-1-step0"],_.circle_wrp_2=["circle-wrp-2-step0","circle-wrp-2-step0","circle-wrp-2-step0","circle-wrp-2-step0","circle-wrp-2-step0","circle-wrp-2-step0","circle-wrp-2-step0","circle-wrp-2-step0","circle-wrp-2-step0"];for(var n=0;n<_.circle_wrp_1.length;n++)!function(p){_.circle_wrp_1[p]="circle-wrp-1-step0",_.circle_wrp_2[p]="circle-wrp-2-step0";var s=583*p;t(function(){i.$apply(_.circle_wrp_1[p]="circle-wrp-1-step1"),i.$apply(_.circle_wrp_2[p]="circle-wrp-2-step1")},100+s),t(function(){i.$apply(_.circle_wrp_1[p]="circle-wrp-1-step2"),i.$apply(_.circle_wrp_2[p]="circle-wrp-2-step2")},1100+s),t(function(){i.$apply(_.circle_wrp_1[p]="circle-wrp-1-step3"),i.$apply(_.circle_wrp_2[p]="circle-wrp-2-step3")},1260+s),t(function(){i.$apply(_.circle_wrp_1[p]="circle-wrp-1-step4"),i.$apply(_.circle_wrp_2[p]="circle-wrp-2-step4")},3510+s),t(function(){i.$apply(_.circle_wrp_1[p]="circle-wrp-1-step5"),i.$apply(_.circle_wrp_2[p]="circle-wrp-2-step5")},3670+s),t(function(){i.$apply(_.circle_wrp_1[p]="circle-wrp-1-stepf"),i.$apply(_.circle_wrp_2[p]="circle-wrp-2-stepf")},4670+s),setInterval(function(){t(function(){i.$apply(_.circle_wrp_1[p]="circle-wrp-1-step1"),i.$apply(_.circle_wrp_2[p]="circle-wrp-2-step1")},100+s),t(function(){i.$apply(_.circle_wrp_1[p]="circle-wrp-1-step2"),i.$apply(_.circle_wrp_2[p]="circle-wrp-2-step2")},1100+s),t(function(){i.$apply(_.circle_wrp_1[p]="circle-wrp-1-step3"),i.$apply(_.circle_wrp_2[p]="circle-wrp-2-step3")},1260+s),t(function(){i.$apply(_.circle_wrp_1[p]="circle-wrp-1-step4"),i.$apply(_.circle_wrp_2[p]="circle-wrp-2-step4")},3510+s),t(function(){i.$apply(_.circle_wrp_1[p]="circle-wrp-1-step5"),i.$apply(_.circle_wrp_2[p]="circle-wrp-2-step5")},3670+s),t(function(){i.$apply(_.circle_wrp_1[p]="circle-wrp-1-stepf"),i.$apply(_.circle_wrp_2[p]="circle-wrp-2-stepf")},4670+s)},4670)}(n);_.circle_wrp_1_r=["circle-wrp-1-step0-r","circle-wrp-1-step0-r","circle-wrp-1-step0-r","circle-wrp-1-step0-r","circle-wrp-1-step0-r","circle-wrp-1-step0-r","circle-wrp-1-step0-r","circle-wrp-1-step0-r","circle-wrp-1-step0-r"],_.circle_wrp_2_r=["circle-wrp-2-step0-r","circle-wrp-2-step0-r","circle-wrp-2-step0-r","circle-wrp-2-step0-r","circle-wrp-2-step0-r","circle-wrp-2-step0-r","circle-wrp-2-step0-r","circle-wrp-2-step0-r","circle-wrp-2-step0-r"];for(var n=0;n<_.circle_wrp_1.length;n++)!function(p){_.circle_wrp_1_r[p]="circle-wrp-1-step0-r",_.circle_wrp_2_r[p]="circle-wrp-2-step0-r";var s=583*p;t(function(){i.$apply(_.circle_wrp_1_r[p]="circle-wrp-1-step1-r"),i.$apply(_.circle_wrp_2_r[p]="circle-wrp-2-step1-r")},100+s),t(function(){i.$apply(_.circle_wrp_1_r[p]="circle-wrp-1-step2-r"),i.$apply(_.circle_wrp_2_r[p]="circle-wrp-2-step2-r")},1100+s),t(function(){i.$apply(_.circle_wrp_1_r[p]="circle-wrp-1-step3-r"),i.$apply(_.circle_wrp_2_r[p]="circle-wrp-2-step3-r")},1260+s),t(function(){i.$apply(_.circle_wrp_1_r[p]="circle-wrp-1-step4-r"),i.$apply(_.circle_wrp_2_r[p]="circle-wrp-2-step4-r")},3510+s),t(function(){i.$apply(_.circle_wrp_1_r[p]="circle-wrp-1-step5-r"),i.$apply(_.circle_wrp_2_r[p]="circle-wrp-2-step5-r")},3670+s),t(function(){i.$apply(_.circle_wrp_1_r[p]="circle-wrp-1-stepf-r"),i.$apply(_.circle_wrp_2_r[p]="circle-wrp-2-stepf-r")},4670+s),setInterval(function(){t(function(){i.$apply(_.circle_wrp_1_r[p]="circle-wrp-1-step1-r"),i.$apply(_.circle_wrp_2_r[p]="circle-wrp-2-step1-r")},100+s),t(function(){i.$apply(_.circle_wrp_1_r[p]="circle-wrp-1-step2-r"),i.$apply(_.circle_wrp_2_r[p]="circle-wrp-2-step2-r")},1100+s),t(function(){i.$apply(_.circle_wrp_1_r[p]="circle-wrp-1-step3-r"),i.$apply(_.circle_wrp_2_r[p]="circle-wrp-2-step3-r")},1260+s),t(function(){i.$apply(_.circle_wrp_1_r[p]="circle-wrp-1-step4-r"),i.$apply(_.circle_wrp_2_r[p]="circle-wrp-2-step4-r")},3510+s),t(function(){i.$apply(_.circle_wrp_1_r[p]="circle-wrp-1-step5-r"),i.$apply(_.circle_wrp_2_r[p]="circle-wrp-2-step5-r")},3670+s),t(function(){i.$apply(_.circle_wrp_1_r[p]="circle-wrp-1-stepf-r"),i.$apply(_.circle_wrp_2_r[p]="circle-wrp-2-stepf-r")},4670+s)},4670)}(n);_.circle_wrp_1_b=["circle-wrp-1-step0-b","circle-wrp-1-step0-b","circle-wrp-1-step0-b","circle-wrp-1-step0-b","circle-wrp-1-step0-b"],_.circle_wrp_2_b=["circle-wrp-2-step0-b","circle-wrp-2-step0-b","circle-wrp-2-step0-b","circle-wrp-2-step0-b","circle-wrp-2-step0-b"];for(var n=0;n<_.circle_wrp_1_b.length;n++)!function(p){_.circle_wrp_1_b[p]="circle-wrp-1-step0-b",_.circle_wrp_2_b[p]="circle-wrp-2-step0-b";var s=386*p;t(function(){setInterval(function(){t(function(){i.$apply(_.circle_wrp_1_b[p]="circle-wrp-1-step1-b"),i.$apply(_.circle_wrp_2_b[p]="circle-wrp-2-step1-b")},100+s),t(function(){i.$apply(_.circle_wrp_1_b[p]="circle-wrp-1-stepf-b"),i.$apply(_.circle_wrp_2_b[p]="circle-wrp-2-stepf-b")},1930+s)},1930)},2740)}(n);_.customaudiencereach=45e4,t(function(){setInterval(function(){_.customaudiencereach=_.customaudiencereach+Math.round(12*Math.random())},5e3)},7410),_.lastupdate=0,_.lastupdate=0,setInterval(function(){_.lastupdate+1===6?_.lastupdate=0:_.lastupdate=_.lastupdate+1},1e3),_.logs=0,setInterval(function(){i.$apply(_.logs=_.logs+1e3+Math.round(1e3*Math.random()))},2e3),_.steps=[{title:"Un set up clef en main",content:"Facile et rapide, il existe plusieurs possibilités pour l'installation de Deepsight : Tag, SDK ou via nos partenaires DMP",class:"htp-stp",classp:"htp-stt",classt:"step-bx-1"},{title:"Création d'audience",content:"Le dashboard Deepsight vous permet de gérer vos campagnes et de régler les paramètres de vos custom audiences",class:"htp-stp-1",classp:"htp-stt-1",classt:"step-bx-no-color"},{title:"Activation multiformats",content:"Les custom audiences sont mises à jour en temps réel et activables sur différents formats publicitaires",class:"htp-stp-1",classp:"htp-stt-1",classt:"step-bx-no-color"}],_.step_bx_class=["step-bx-1","step-bx-2","step-bx-3"],_.image_step_path=["../images/setup.png","../images/dashboard.png","../images/activation.png"],_.image_step=_.image_step_path[0],_.steps_mobile=_.steps[0],_.step_bx_class_mobile=_.step_bx_class[0],_.stepbool1=!0,_.stepbool2=!1,_.stepbool3=!1,_.nextindex=function(p,s){return p+1===s?p=0:p+1<s&&(p+=1),p},_.nextstep=function(p){_.counter=p;for(var s=0;s<_.steps.length;s++)p===s?(_.steps[s].class="htp-stp",_.steps[s].classp="htp-stt",_.steps[s].classt=_.step_bx_class[s],_.image_step=_.image_step_path[s],0===p?(_.stepbool1=!0,_.stepbool2=!1,_.stepbool3=!1):1===p?(_.stepbool1=!1,_.stepbool2=!0,_.stepbool3=!1):2===p&&(_.stepbool1=!1,_.stepbool2=!1,_.stepbool3=!0)):(_.steps[s].class="htp-stp-1",_.steps[s].classp="htp-stt-1",_.steps[s].classt="step-bx-no-color")},_.counter=0,setInterval(function(){2===_.counter?_.counter=0:_.counter=_.counter+1;for(var p=0;p<_.steps.length;p++)i.$apply(_.steps_mobile=_.steps[_.counter]),i.$apply(_.step_bx_class_mobile=_.step_bx_class[_.counter]),_.counter===p?(i.$apply(_.steps[p].class="htp-stp"),i.$apply(_.steps[p].classp="htp-stt"),i.$apply(_.steps[p].classt=_.step_bx_class[p]),0===_.counter?(i.$apply(_.stepbool1=!0),i.$apply(_.stepbool2=!1),i.$apply(_.stepbool3=!1)):1===_.counter?(i.$apply(_.stepbool1=!1),i.$apply(_.stepbool2=!0),i.$apply(_.stepbool3=!1)):2===_.counter&&(i.$apply(_.stepbool1=!1),i.$apply(_.stepbool2=!1),i.$apply(_.stepbool3=!0))):(i.$apply(_.steps[p].class="htp-stp-1"),i.$apply(_.steps[p].classp="htp-stt-1"),i.$apply(_.steps[p].classt="step-bx-no-color"))},15e3)}var e=p.name+"."+controllername,r=["$document","$location","$window","$anchorScroll","$timeout","$rootScope","$scope","$state"];s.$inject=r,p.controller(e,s)};
+"use strict";var controllername="mainView";module.exports=function(p){function s(p,s,c,r,t,l,i,a){var _=this;_.controllername=e,_.dshb1=!0,_.dshb3=!1,_.dshb3=!1,_.nextview=function(p){0===p&&(_.dshb1=!0,_.dshbv[0].classv="dshb-step-b",_.dshbv[0].classttl="dshb-ttl-b",_.dshbv[0].classstl="dshb-stl-b",_.dshb2=!1,_.dshbv[1].classv="dshb-step",_.dshbv[1].classttl="dshb-ttl",_.dshbv[1].classstl="dshb-stl",_.dshb3=!1,_.dshbv[2].classv="dshb-step",_.dshbv[2].classttl="dshb-ttl",_.dshbv[2].classstl="dshb-stl"),1===p&&(_.dshb1=!1,_.dshbv[0].classv="dshb-step",_.dshbv[0].classttl="dshb-ttl",_.dshbv[0].classstl="dshb-stl",_.dshb2=!0,_.dshbv[1].classv="dshb-step-b",_.dshbv[1].classttl="dshb-ttl-b",_.dshbv[1].classstl="dshb-stl-b",_.dshb3=!1,_.dshbv[2].classv="dshb-step",_.dshbv[2].classttl="dshb-ttl",_.dshbv[2].classstl="dshb-stl"),2===p&&(_.dshb1=!1,_.dshbv[0].classv="dshb-step",_.dshbv[0].classttl="dshb-ttl",_.dshbv[0].classstl="dshb-stl",_.dshb2=!1,_.dshbv[1].classv="dshb-step",_.dshbv[1].classttl="dshb-ttl",_.dshbv[1].classstl="dshb-stl",_.dshb3=!0,_.dshbv[2].classv="dshb-step-b",_.dshbv[2].classttl="dshb-ttl-b",_.dshbv[2].classstl="dshb-stl-b")},_.dshbv=[{title:"Choisissez les données",img:"../images/mydata-lgt.png",content:"Météo, promotions marketing, événements sportifs, musicaux et calendaires.",classv:"dshb-step-b",classttl:"dshb-ttl-b",classstl:"dshb-stl-b"},{title:"Mesurez leurs impacts",img:"../images/mysales-lgt.png",content:"Quantification de l'influence des données sélectionnées sur vos ventes passées.",classv:"dshb-step",classttl:"dshb-ttl",classstl:"dshb-stl"},{title:"Prenez la bonne décision",img:"../images/myalerts-lgt.png",content:" Des alertes push et des tableaux de bord pour piloter le futur de votre activité.",classv:"dshb-step",classttl:"dshb-ttl",classstl:"dshb-stl"}],_.circle_wrp_1=["circle-wrp-1-step0","circle-wrp-1-step0","circle-wrp-1-step0","circle-wrp-1-step0","circle-wrp-1-step0","circle-wrp-1-step0","circle-wrp-1-step0","circle-wrp-1-step0","circle-wrp-1-step0"],_.circle_wrp_2=["circle-wrp-2-step0","circle-wrp-2-step0","circle-wrp-2-step0","circle-wrp-2-step0","circle-wrp-2-step0","circle-wrp-2-step0","circle-wrp-2-step0","circle-wrp-2-step0","circle-wrp-2-step0"];for(var n=0;n<_.circle_wrp_1.length;n++)!function(p){_.circle_wrp_1[p]="circle-wrp-1-step0",_.circle_wrp_2[p]="circle-wrp-2-step0";var s=583*p;t(function(){i.$apply(_.circle_wrp_1[p]="circle-wrp-1-step1"),i.$apply(_.circle_wrp_2[p]="circle-wrp-2-step1")},100+s),t(function(){i.$apply(_.circle_wrp_1[p]="circle-wrp-1-step2"),i.$apply(_.circle_wrp_2[p]="circle-wrp-2-step2")},1100+s),t(function(){i.$apply(_.circle_wrp_1[p]="circle-wrp-1-step3"),i.$apply(_.circle_wrp_2[p]="circle-wrp-2-step3")},1260+s),t(function(){i.$apply(_.circle_wrp_1[p]="circle-wrp-1-step4"),i.$apply(_.circle_wrp_2[p]="circle-wrp-2-step4")},3510+s),t(function(){i.$apply(_.circle_wrp_1[p]="circle-wrp-1-step5"),i.$apply(_.circle_wrp_2[p]="circle-wrp-2-step5")},3670+s),t(function(){i.$apply(_.circle_wrp_1[p]="circle-wrp-1-stepf"),i.$apply(_.circle_wrp_2[p]="circle-wrp-2-stepf")},4670+s),setInterval(function(){t(function(){i.$apply(_.circle_wrp_1[p]="circle-wrp-1-step1"),i.$apply(_.circle_wrp_2[p]="circle-wrp-2-step1")},100+s),t(function(){i.$apply(_.circle_wrp_1[p]="circle-wrp-1-step2"),i.$apply(_.circle_wrp_2[p]="circle-wrp-2-step2")},1100+s),t(function(){i.$apply(_.circle_wrp_1[p]="circle-wrp-1-step3"),i.$apply(_.circle_wrp_2[p]="circle-wrp-2-step3")},1260+s),t(function(){i.$apply(_.circle_wrp_1[p]="circle-wrp-1-step4"),i.$apply(_.circle_wrp_2[p]="circle-wrp-2-step4")},3510+s),t(function(){i.$apply(_.circle_wrp_1[p]="circle-wrp-1-step5"),i.$apply(_.circle_wrp_2[p]="circle-wrp-2-step5")},3670+s),t(function(){i.$apply(_.circle_wrp_1[p]="circle-wrp-1-stepf"),i.$apply(_.circle_wrp_2[p]="circle-wrp-2-stepf")},4670+s)},4670)}(n);_.circle_wrp_1_r=["circle-wrp-1-step0-r","circle-wrp-1-step0-r","circle-wrp-1-step0-r","circle-wrp-1-step0-r","circle-wrp-1-step0-r","circle-wrp-1-step0-r","circle-wrp-1-step0-r","circle-wrp-1-step0-r","circle-wrp-1-step0-r"],_.circle_wrp_2_r=["circle-wrp-2-step0-r","circle-wrp-2-step0-r","circle-wrp-2-step0-r","circle-wrp-2-step0-r","circle-wrp-2-step0-r","circle-wrp-2-step0-r","circle-wrp-2-step0-r","circle-wrp-2-step0-r","circle-wrp-2-step0-r"];for(var n=0;n<_.circle_wrp_1.length;n++)!function(p){_.circle_wrp_1_r[p]="circle-wrp-1-step0-r",_.circle_wrp_2_r[p]="circle-wrp-2-step0-r";var s=583*p;t(function(){i.$apply(_.circle_wrp_1_r[p]="circle-wrp-1-step1-r"),i.$apply(_.circle_wrp_2_r[p]="circle-wrp-2-step1-r")},100+s),t(function(){i.$apply(_.circle_wrp_1_r[p]="circle-wrp-1-step2-r"),i.$apply(_.circle_wrp_2_r[p]="circle-wrp-2-step2-r")},1100+s),t(function(){i.$apply(_.circle_wrp_1_r[p]="circle-wrp-1-step3-r"),i.$apply(_.circle_wrp_2_r[p]="circle-wrp-2-step3-r")},1260+s),t(function(){i.$apply(_.circle_wrp_1_r[p]="circle-wrp-1-step4-r"),i.$apply(_.circle_wrp_2_r[p]="circle-wrp-2-step4-r")},3510+s),t(function(){i.$apply(_.circle_wrp_1_r[p]="circle-wrp-1-step5-r"),i.$apply(_.circle_wrp_2_r[p]="circle-wrp-2-step5-r")},3670+s),t(function(){i.$apply(_.circle_wrp_1_r[p]="circle-wrp-1-stepf-r"),i.$apply(_.circle_wrp_2_r[p]="circle-wrp-2-stepf-r")},4670+s),setInterval(function(){t(function(){i.$apply(_.circle_wrp_1_r[p]="circle-wrp-1-step1-r"),i.$apply(_.circle_wrp_2_r[p]="circle-wrp-2-step1-r")},100+s),t(function(){i.$apply(_.circle_wrp_1_r[p]="circle-wrp-1-step2-r"),i.$apply(_.circle_wrp_2_r[p]="circle-wrp-2-step2-r")},1100+s),t(function(){i.$apply(_.circle_wrp_1_r[p]="circle-wrp-1-step3-r"),i.$apply(_.circle_wrp_2_r[p]="circle-wrp-2-step3-r")},1260+s),t(function(){i.$apply(_.circle_wrp_1_r[p]="circle-wrp-1-step4-r"),i.$apply(_.circle_wrp_2_r[p]="circle-wrp-2-step4-r")},3510+s),t(function(){i.$apply(_.circle_wrp_1_r[p]="circle-wrp-1-step5-r"),i.$apply(_.circle_wrp_2_r[p]="circle-wrp-2-step5-r")},3670+s),t(function(){i.$apply(_.circle_wrp_1_r[p]="circle-wrp-1-stepf-r"),i.$apply(_.circle_wrp_2_r[p]="circle-wrp-2-stepf-r")},4670+s)},4670)}(n);_.circle_wrp_1_b=["circle-wrp-1-step0-b","circle-wrp-1-step0-b","circle-wrp-1-step0-b","circle-wrp-1-step0-b","circle-wrp-1-step0-b"],_.circle_wrp_2_b=["circle-wrp-2-step0-b","circle-wrp-2-step0-b","circle-wrp-2-step0-b","circle-wrp-2-step0-b","circle-wrp-2-step0-b"];for(var n=0;n<_.circle_wrp_1_b.length;n++)!function(p){_.circle_wrp_1_b[p]="circle-wrp-1-step0-b",_.circle_wrp_2_b[p]="circle-wrp-2-step0-b";var s=386*p;t(function(){setInterval(function(){t(function(){i.$apply(_.circle_wrp_1_b[p]="circle-wrp-1-step1-b"),i.$apply(_.circle_wrp_2_b[p]="circle-wrp-2-step1-b")},100+s),t(function(){i.$apply(_.circle_wrp_1_b[p]="circle-wrp-1-stepf-b"),i.$apply(_.circle_wrp_2_b[p]="circle-wrp-2-stepf-b")},1930+s)},1930)},2740)}(n);_.customaudiencereach=45e4,t(function(){setInterval(function(){_.customaudiencereach=_.customaudiencereach+Math.round(12*Math.random())},5e3)},7410),_.lastupdate=0,_.lastupdate=0,setInterval(function(){_.lastupdate+1===6?_.lastupdate=0:_.lastupdate=_.lastupdate+1},1e3),_.logs=0,setInterval(function(){i.$apply(_.logs=_.logs+1e3+Math.round(1e3*Math.random()))},2e3),_.steps=[{title:"Un set up clef en main",content:"Facile et rapide, il existe plusieurs possibilités pour l'installation de Deepsight : Tag, SDK ou via nos partenaires DMP",class:"htp-stp",classp:"htp-stt",classt:"step-bx-1"},{title:"Création d'audience",content:"Le dashboard Deepsight vous permet de gérer vos campagnes et de régler les paramètres de vos custom audiences",class:"htp-stp-1",classp:"htp-stt-1",classt:"step-bx-no-color"},{title:"Activation multiformats",content:"Les custom audiences sont mises à jour en temps réel et activables sur différents formats publicitaires",class:"htp-stp-1",classp:"htp-stt-1",classt:"step-bx-no-color"}],_.step_bx_class=["step-bx-1","step-bx-2","step-bx-3"],_.image_step_path=["../images/setup.png","../images/dashboard.png","../images/activation.png"],_.image_step=_.image_step_path[0],_.steps_mobile=_.steps[0],_.step_bx_class_mobile=_.step_bx_class[0],_.stepbool1=!0,_.stepbool2=!1,_.stepbool3=!1,_.nextindex=function(p,s){return p+1===s?p=0:p+1<s&&(p+=1),p},_.nextstep=function(p){_.counter=p;for(var s=0;s<_.steps.length;s++)p===s?(_.steps[s].class="htp-stp",_.steps[s].classp="htp-stt",_.steps[s].classt=_.step_bx_class[s],_.image_step=_.image_step_path[s],0===p?(_.stepbool1=!0,_.stepbool2=!1,_.stepbool3=!1):1===p?(_.stepbool1=!1,_.stepbool2=!0,_.stepbool3=!1):2===p&&(_.stepbool1=!1,_.stepbool2=!1,_.stepbool3=!0)):(_.steps[s].class="htp-stp-1",_.steps[s].classp="htp-stt-1",_.steps[s].classt="step-bx-no-color")},_.counter=0,setInterval(function(){2===_.counter?_.counter=0:_.counter=_.counter+1;for(var p=0;p<_.steps.length;p++)i.$apply(_.steps_mobile=_.steps[_.counter]),i.$apply(_.step_bx_class_mobile=_.step_bx_class[_.counter]),_.counter===p?(i.$apply(_.steps[p].class="htp-stp"),i.$apply(_.steps[p].classp="htp-stt"),i.$apply(_.steps[p].classt=_.step_bx_class[p]),0===_.counter?(i.$apply(_.stepbool1=!0),i.$apply(_.stepbool2=!1),i.$apply(_.stepbool3=!1)):1===_.counter?(i.$apply(_.stepbool1=!1),i.$apply(_.stepbool2=!0),i.$apply(_.stepbool3=!1)):2===_.counter&&(i.$apply(_.stepbool1=!1),i.$apply(_.stepbool2=!1),i.$apply(_.stepbool3=!0))):(i.$apply(_.steps[p].class="htp-stp-1"),i.$apply(_.steps[p].classp="htp-stt-1"),i.$apply(_.steps[p].classt="step-bx-no-color"))},15e3)}var e=p.name+"."+controllername,c=["$document","$location","$window","$anchorScroll","$timeout","$rootScope","$scope","$state"];s.$inject=c,p.controller(e,s)};
 
 },{}],5:[function(require,module,exports){
 "use strict";var controllername="signin";module.exports=function(n){function r(){var n=this;n.controllername=o;var r=function(){};r()}var o=n.name+"."+controllername,e=[];r.$inject=e,n.controller(o,r)};
 
 },{}],6:[function(require,module,exports){
-module.exports = '<div class="footer-lght">\n' +
-    '    <div class="footer-lght-copyright">Copyright 2018 LOGIDDATA. All right reserved</div>\n' +
+module.exports = '<div class="soon-wrp" ng-if="modalboolean">\n' +
+    '    <div class="soon-blc">\n' +
+    '        <img class="cross-cl" src="../images/cross-close-modal-logo.png" ng-click="ocmodal()">\n' +
+    '        <div class="soon-cp"> Cette page sera bientôt disponible</div>\n' +
+    '    </div>\n' +
     '</div>\n' +
+    '<footer class="footer-block">\n' +
+    '      <div class="footer-wrp">\n' +
+    '            <div class="footer-tp">\n' +
+    '                <div class="footer-elmt">\n' +
+    '                    <h3 class="footer-ttl">L\'entreprise</h3>\n' +
+    '                    <ul class="footer-l-sct">\n' +
+    '                        <a class="pg-lk" ui-sref="about">\n' +
+    '                            <li class="footer-l">L\'équipe</li>\n' +
+    '                        </a>\n' +
+    '                         <a href="https://medium.com/@deepsight" target="_blank" class="link-footer"><li class="footer-l">Blog</li></a>\n' +
+    '                    </ul>\n' +
+    '                </div>\n' +
+    '                <div class="footer-elmt">\n' +
+    '                    <h3 class="footer-ttl" ng-click="ocmodal()">Support</h3>\n' +
+    '                    <ul class="footer-l-sct">\n' +
+    '                        <a href="mailto:contact@deepsight.io" class="link-footer"><li class="footer-l">Contact</li></a>\n' +
+    '                    </ul>\n' +
+    '                </div>\n' +
+    '\n' +
+    '                <div class="footer-elmt">\n' +
+    '                    <h3 class="footer-ttl">Pratique</h3>\n' +
+    '                    <ul class="footer-l-sct">\n' +
+    '                        <a href="mailto:brice@deepsight.io" class="link-footer"><li class="footer-l">Contact Press</li>\n' +
+    '                    </ul>\n' +
+    '                </div>\n' +
+    '            </div>\n' +
+    '            <div class="footer-bt">\n' +
+    '                <div class="footer-elmt">\n' +
+    '                    <div class="footer-logo-dpsght-wrapper">\n' +
+    '                        <div class="footer-logo-dpsght-pic"></div>\n' +
+    '                        <div class="footer-logo-dpsght-title">©Deepsight SAS</div>\n' +
+    '                    </div>\n' +
+    '                </div>\n' +
+    '                <div class="footer-elmt">\n' +
+    '                    <div class="footer-adds">\n' +
+    '                        <a href="https://stationf.co/" target="_blank">\n' +
+    '                            <img class="footer-adds-img" src="../images/station-F-white.png"></img>\n' +
+    '                        </a>\n' +
+    '                        <p class="footer-adds-cp">55 Bv Vincent Auriol\n' +
+    '                            <br> 75013 Paris</p>\n' +
+    '                    </div>\n' +
+    '                </div>\n' +
+    '                <div class="footer-elmt">\n' +
+    '                    <a href="http://www.50partners.fr/" target="_blank">\n' +
+    '                        <img class="footer-accl-img" src="../images/50-Partners-white.png"></img>\n' +
+    '                    </a>\n' +
+    '\n' +
+    '                </div>\n' +
+    '                <div class="footer-elmt footer-elmt-mobile">\n' +
+    '                    <div class="footer-sln-img-wrp">\n' +
+    '                        <a href="https://www.linkedin.com/company/10782796/" target="_blank">\n' +
+    '                            <img class="footer-sln-img" src="../images/logo-linkedin-white.png"></img>\n' +
+    '                        </a>\n' +
+    '                    </div>\n' +
+    '                </div>\n' +
+    '            </div>\n' +
+    '        </div>\n' +
     '</footer>';
 },{}],7:[function(require,module,exports){
 "use strict";var directivename="footerdeepsight";module.exports=function(o){var e=["$document","$location","$window","$anchorScroll","$timeout","$rootScope","$scope","$state"],t=function(o,e,t,n,r,i,a,c){var l=this;l.directivename=directivename,a.modalboolean=!1,a.ocmodal=function(){a.modalboolean===!1?(a.modalboolean=!0,o[0].body.className="app-body-h"):a.modalboolean===!0&&(a.modalboolean=!1,a.bd_wrp="bd-wrp",o[0].body.className="app-body")}};t.$inject=e;var n=[],r=function(){return{restrict:"AE",scope:{title:"@"},controller:t,controllerAs:"footerdeepsightCtrl",bindToController:!0,template:require(6),compile:function(o,e){return{pre:function(o,e,t){},post:function(o,e,t){}}}}};r.$inject=n,o.directive(directivename,r)};
@@ -55,26 +115,35 @@ module.exports = '<div class="soon-wrp" ng-if="modalboolean">\n' +
     '        <a ng-class="pg_lk" ui-sref="home">\n' +
     '            <div class="logo-dpsght-wrapper">\n' +
     '                <div ng-class="logo_dpsght"></div>\n' +
-    '                <div class="logo-dpsght-title">LOGIDDATA</div>\n' +
+    '                <div class="logo-dpsght-title">Deepsight</div>\n' +
     '            </div>\n' +
     '        </a>\n' +
     '\n' +
+    '<!--         <div class="hiring-btn-wrapper">\n' +
+    '            <div class="hiring-btn">\n' +
+    '                <a ng-class="pg_lk" ui-sref="jobs">\n' +
+    '                    <div class="hiring-btn-cp">WE\'RE HIRING</div>\n' +
+    '                </a>\n' +
+    '            </div>\n' +
+    '        </div> -->\n' +
     '        <div class="lg-wrapper">\n' +
-    '\n' +
-    '                <div class="signin">\n' +
-    '        <a href="mailto:contact@hemeera.io"><div class="signin-cp">CONTACT US</div></a>\n' +
-    '            \n' +
-    '        </div>\n' +
-    '\n' +
     '            <div class="lg-cp lg-FR">FR</div>\n' +
     '            <div class="lg-sp"></div>\n' +
     '            <div class="lg-cp lg-EN" ng-click="ocmodal()">EN</div>\n' +
     '        </div>\n' +
+    '                                <div class="signin">\n' +
+    '        <a href="mailto:contact@deepsight.io"><div class="signin-cp">CONTACT US</div></a>\n' +
+    '            \n' +
+    '        </div>\n' +
     '\n' +
     '        <ul class="pg-wrapper">\n' +
-    '                <li class="pg-cp" ng-click="scrollTo1()">RESTAURATION</li>\n' +
-    '                <li class="pg-cp" ng-click="scrollTo2()">E-COMMERCE</li>\n' +
-    '            <li class="pg-cp" ng-click="scrollTo3()">FASHION</li>\n' +
+    '            <a ng-class="pg_lk" ui-sref="about">\n' +
+    '                <li class="pg-cp">À PROPOS</li>\n' +
+    '            </a>\n' +
+    '<!--             <a ng-class="pg_lk" ui-sref="jobs">\n' +
+    '                <li class="pg-cp">JOBS</li>\n' +
+    '            </a> -->\n' +
+    '            <li class="pg-cp"><a target="_blank" href="https://medium.com/@deepsight">BLOG</a></li>\n' +
     '        </ul>\n' +
     '    </div>\n' +
     '</header>\n' +
@@ -88,8 +157,20 @@ module.exports = '<div class="soon-wrp" ng-if="modalboolean">\n' +
     '\n' +
     '    <div ng-class="classmenu" class="mobile-menu-list">\n' +
     '        <a ui-sref="about" class="menu-element-link">\n' +
-    '            <div class="mobile-menu-element" ng-click="">SIGN IN</div>\n' +
+    '            <div class="mobile-menu-element" ng-click="">À PROPOS</div>\n' +
     '        </a>\n' +
+    '<!--         <a ui-sref="jobs" class="menu-element-link">\n' +
+    '            <div class="mobile-menu-element" ng-click="">JOBS</div>\n' +
+    '        </a> -->\n' +
+    '        <a href="https://medium.com/@deepsight" class="menu-element-link">\n' +
+    '            <div class="mobile-menu-element">BLOG</div>\n' +
+    '        </a>\n' +
+    '\n' +
+    '                <a href="mailto:contact@deepsight.io" class="menu-element-link">\n' +
+    '            <div class="mobile-menu-element" >NOUS CONTACTER</div>\n' +
+    '        </a>\n' +
+    '\n' +
+    '\n' +
     '    </div>\n' +
     '\n' +
     '    <div id="hamburger" ng-click="hidemenu(); crosshamburger();">\n' +
@@ -99,9 +180,10 @@ module.exports = '<div class="soon-wrp" ng-if="modalboolean">\n' +
     '        <span ng-class="classbar4"></span>\n' +
     '    </div>\n' +
     '\n' +
-    '</header>';
+    '</header>\n' +
+    '';
 },{}],12:[function(require,module,exports){
-"use strict";var directivename="topbar";module.exports=function(a){var r=["$document","$location","$window","$anchorScroll","$timeout","$rootScope","$scope","$state"],o=function(a,r,o,l,e,b,s,c){var t=this;t.directivename=directivename,s.modalboolean=!1,s.scrollTo1=function(){var a=r.hash();r.hash("1who"),l(),r.hash(a)},s.scrollTo2=function(){var a=r.hash();r.hash("2who"),l(),r.hash(a)},s.scrollTo3=function(){var a=r.hash();r.hash("3who"),l(),r.hash(a)},s.ocmodal=function(){s.modalboolean===!1?(s.modalboolean=!0,a[0].body.className="app-body-h"):s.modalboolean===!0&&(s.modalboolean=!1,s.bd_wrp="bd-wrp",a[0].body.className="app-body")},s.modalbooleanblog=!1,s.ocmodalb=function(){s.modalbooleanblog===!1?(s.modalbooleanblog=!0,a[0].body.className="app-body-h"):s.modalbooleanblog===!0&&(s.modalbooleanblog=!1,s.bd_wrp="bd-wrp",a[0].body.className="app-body")},s.top_bar_wrp="top-bar-wrp",s.logo_dpsght="logo-dpsght-pic",s.pg_lk="pg-lk",angular.element(o).bind("scroll",function(){o.scrollY>10&&(s.$apply(s.top_bar_wrp="top-bar-wrp-w"),s.$apply(s.logo_dpsght="logo-dpsght-pic-w"),s.$apply(s.pg_lk="pg-lk-w")),o.scrollY<=10&&(s.$apply(s.top_bar_wrp="top-bar-wrp"),s.$apply(s.logo_dpsght="logo-dpsght-pic"),s.$apply(s.pg_lk="pg-lk"))}),s.classmenu="hidden-menu",s.classbar1="hamburger-top-bar",s.classbar2="hamburger-middle1-bar",s.classbar3="hamburger-middle2-bar",s.classbar4="hamburger-bottom-bar",s.hidemenu=function(){"hidden-menu"===s.classmenu?s.classmenu="shown-menu":"shown-menu"===s.classmenu&&(s.classmenu="hidden-menu")},s.crosshamburger=function(){"hamburger-top-bar"===s.classbar1?s.classbar1="hamburger-top-bar-clicked":"hamburger-top-bar-clicked"===s.classbar1&&(s.classbar1="hamburger-top-bar"),"hamburger-middle1-bar"===s.classbar2?s.classbar2="hamburger-middle1-bar-clicked":"hamburger-middle1-bar-clicked"===s.classbar2&&(s.classbar2="hamburger-middle1-bar"),"hamburger-middle2-bar"===s.classbar3?s.classbar3="hamburger-middle2-bar-clicked":"hamburger-middle2-bar-clicked"===s.classbar3&&(s.classbar3="hamburger-middle2-bar"),"hamburger-bottom-bar"===s.classbar4?s.classbar4="hamburger-bottom-bar-clicked":"hamburger-bottom-bar-clicked"===s.classbar4&&(s.classbar4="hamburger-bottom-bar")}};o.$inject=r;var l=[],e=function(){return{restrict:"AE",scope:{title:"@"},controller:o,controllerAs:"topbarCtrl",bindToController:!0,template:require(11),compile:function(a,r){return{pre:function(a,r,o){},post:function(a,r,o){}}}}};e.$inject=l,a.directive(directivename,e)};
+"use strict";var directivename="topbar";module.exports=function(a){var r=["$document","$location","$window","$anchorScroll","$timeout","$rootScope","$scope","$state"],o=function(a,r,o,l,e,b,c,s){var d=this;d.directivename=directivename,c.modalboolean=!1,c.ocmodal=function(){c.modalboolean===!1?(c.modalboolean=!0,a[0].body.className="app-body-h"):c.modalboolean===!0&&(c.modalboolean=!1,c.bd_wrp="bd-wrp",a[0].body.className="app-body")},c.modalbooleanblog=!1,c.ocmodalb=function(){c.modalbooleanblog===!1?(c.modalbooleanblog=!0,a[0].body.className="app-body-h"):c.modalbooleanblog===!0&&(c.modalbooleanblog=!1,c.bd_wrp="bd-wrp",a[0].body.className="app-body")},c.top_bar_wrp="top-bar-wrp",c.logo_dpsght="logo-dpsght-pic",c.pg_lk="pg-lk",angular.element(o).bind("scroll",function(){o.scrollY>10&&(c.$apply(c.top_bar_wrp="top-bar-wrp-w"),c.$apply(c.logo_dpsght="logo-dpsght-pic-w"),c.$apply(c.pg_lk="pg-lk-w")),o.scrollY<=10&&(c.$apply(c.top_bar_wrp="top-bar-wrp"),c.$apply(c.logo_dpsght="logo-dpsght-pic"),c.$apply(c.pg_lk="pg-lk"))}),c.classmenu="hidden-menu",c.classbar1="hamburger-top-bar",c.classbar2="hamburger-middle1-bar",c.classbar3="hamburger-middle2-bar",c.classbar4="hamburger-bottom-bar",c.hidemenu=function(){"hidden-menu"===c.classmenu?c.classmenu="shown-menu":"shown-menu"===c.classmenu&&(c.classmenu="hidden-menu")},c.crosshamburger=function(){"hamburger-top-bar"===c.classbar1?c.classbar1="hamburger-top-bar-clicked":"hamburger-top-bar-clicked"===c.classbar1&&(c.classbar1="hamburger-top-bar"),"hamburger-middle1-bar"===c.classbar2?c.classbar2="hamburger-middle1-bar-clicked":"hamburger-middle1-bar-clicked"===c.classbar2&&(c.classbar2="hamburger-middle1-bar"),"hamburger-middle2-bar"===c.classbar3?c.classbar3="hamburger-middle2-bar-clicked":"hamburger-middle2-bar-clicked"===c.classbar3&&(c.classbar3="hamburger-middle2-bar"),"hamburger-bottom-bar"===c.classbar4?c.classbar4="hamburger-bottom-bar-clicked":"hamburger-bottom-bar-clicked"===c.classbar4&&(c.classbar4="hamburger-bottom-bar")}};o.$inject=r;var l=[],e=function(){return{restrict:"AE",scope:{title:"@"},controller:o,controllerAs:"topbarCtrl",bindToController:!0,template:require(11),compile:function(a,r){return{pre:function(a,r,o){},post:function(a,r,o){}}}}};e.$inject=l,a.directive(directivename,e)};
 
 },{"11":11}],13:[function(require,module,exports){
 "use strict";var angular=require(20);require(18);var modulename="deepsight";module.exports=function(e){var r=e+"."+modulename,t=angular.module(r,["ui.router"]);require(2)(t),require(8)(t),t.namespace=t.namespace||{};var o=["$stateProvider","$urlRouterProvider"],l=function(e,t){t.otherwise("/"),e.state("home",{url:"/",template:require(15),controller:r+".mainView",controllerAs:"vm"}).state("about",{url:"/about",template:require(14),controller:r+".about",controllerAs:"vm"}).state("jobs",{url:"/jobs",template:require(16),controller:r+".jobs",controllerAs:"vm"})};return l.$inject=o,t.config(l),t};
@@ -110,13 +192,13 @@ module.exports = '<div class="soon-wrp" ng-if="modalboolean">\n' +
 module.exports = '<topbar></topbar>\n' +
     '<section class="category-block">\n' +
     '    <div class="title-wrp">\n' +
-    '        <h1 class="intro-ttl">À propos</h1>\n' +
+    '        <h1 class="intro-ttl-main">À propos</h1>\n' +
     '    </div>\n' +
     '</section>\n' +
     '\n' +
     '<section class="team-blc">\n' +
     '    <div class="section-blc-ttl-wrp">\n' +
-    '        <h2 class="section-blc-ttl-wrp-ttl">Les cofondateurs</h2>\n' +
+    '        <h2 class="section-blc-ttl-wrp-ttl">L\'équipe fondatrice</h2>\n' +
     '        <h3 class="section-blc-ttl-wrp-stl"></h3>\n' +
     '    </div>\n' +
     '    <div class="co-founder-wrp">\n' +
@@ -126,34 +208,31 @@ module.exports = '<topbar></topbar>\n' +
     '                    <img class="team-mmb-pc" src="../images/brice_pic.png">\n' +
     '                </div>\n' +
     '                <div class="team-mmb-nm">Brice Konda</div>\n' +
-    '                <div class="team-mmb-fc">Co-Founder & CEO</div>\n' +
-    '            </div>\n' +
-    '            <div class="tm-mmb-wrp">\n' +
-    '                <div class="tm-mmb-pc-wrp">\n' +
-    '                    <img class="team-mmb-pc" src="../images/hector_pic.png">\n' +
-    '                </div>\n' +
-    '                <div class="team-mmb-nm">Hector de Lussac</div>\n' +
-    '                <div class="team-mmb-fc">Co-Founder & CRO</div>\n' +
+    '                <div class="team-mmb-fc"><span style="color :black">Cofondateur & CEO</span></div>\n' +
+    '                                <div class="team-mmb-fc"><span style="color :#18A07A">Centrale Paris<span></span></div>\n' +
     '            </div>\n' +
     '            <div class="tm-mmb-wrp">\n' +
     '                <div class="tm-mmb-pc-wrp">\n' +
     '                    <img class="team-mmb-pc" src="../images/valentin_pic.png">\n' +
     '                </div>\n' +
     '                <div class="team-mmb-nm">Valentin Pignolet</div>\n' +
-    '                <div class="team-mmb-fc">Co-Founder & CTO</div>\n' +
+    '                <div class="team-mmb-fc"><span style="color :black">Cofondateur & CTO</span></div>\n' +
+    '                                <div class="team-mmb-fc"><span style="color :#18A07A">Centrale Paris<span></span></div>\n' +
     '            </div>\n' +
     '        </div>\n' +
     '    </div>\n' +
     '\n' +
     '</section>\n' +
+    '\n' +
+    '\n' +
     '<section class="classic-cta-blc">\n' +
     '    <div class="classic-cta-blc-cp-wrp">\n' +
     '        <h2 class="classic-cta-blc-cp-ttl">Tu veux rejoindre l\'aventure Deepsight ?</h2>\n' +
-    '        <h3 class="classic-cta-blc-cp-stl">N\'attends plus pour rejoindre l\'aventure! </h3>\n' +
+    '        <h3 class="classic-cta-blc-cp-stl">N\'attends plus et contacte nous!</h3>\n' +
     '    </div>\n' +
     '    <div class="classic-cta-blc-cta-wrp">\n' +
     '        <div class="jobs-classic-cta-blc-cta">\n' +
-    '            <a  ui-sref="jobs"><div class="classic-cta-blc-cta-cp">DEEPSIGHT RECRUTE!</div></a>\n' +
+    '            <a href="mailto:jobs@deepsight.io"><span class="classic-cta-blc-cta-cp">DEEPSIGHT RECRUTE!</span></a>\n' +
     '        </div>\n' +
     '    </div>\n' +
     '</section>\n' +
@@ -170,6 +249,8 @@ module.exports = '<topbar>\n' +
     '                <br> supply chain réinventé</h1>\n' +
     '            <h2 class="intro-sttl">Optimisez vos ressources en fonction des événements extérieurs qui influencent votre activité. </h2>\n' +
     '        </div>\n' +
+    '\n' +
+    '        \n' +
     '        <div class="cta-wrp">\n' +
     '            <div class="cta">\n' +
     '                <a href="mailto:contact@deepsight.io">\n' +
@@ -180,7 +261,7 @@ module.exports = '<topbar>\n' +
     '    </div>\n' +
     '\n' +
     '    <div class="intro-wrp-img">\n' +
-    '        <img class="img-intro" src="../images/prev-ventes-lght.png">\n' +
+    '        <img class="img-intro" src="../images/prev-bis.png">\n' +
     '    </div>\n' +
     '\n' +
     '</section>\n' +
@@ -192,7 +273,7 @@ module.exports = '<topbar>\n' +
     '            <h2 class="section-blc-ttl-wrp-ttl">Ayez la main sur les événements critiques</h2>\n' +
     '            <h3 class="section-blc-ttl-wrp-stl">\n' +
     '                De nombreux événements ont un impact déterminant sur votre supply chain.\n' +
-    '                <br> LOGIDDATA vous donne les outils pour une prise de décision efficace.</h3>\n' +
+    '                <br> Deepsight vous donne les outils pour une prise de décision efficace.</h3>\n' +
     '        </div>\n' +
     '\n' +
     '        <div class="vps-wrp">\n' +
@@ -200,7 +281,7 @@ module.exports = '<topbar>\n' +
     '                <div class="vp-wrp">\n' +
     '                    <img class="vp-pc" src="../images/events.png">\n' +
     '                    <div class="vp-ttl">Collect</div>\n' +
-    '                    <div class="vp-stl"> LOGIDDATA agrège des milliers d\'événements de la vie réelle comme la météo, les concerts ou les événements sportifs.</div>\n' +
+    '                    <div class="vp-stl"> Deepsight agrège des milliers d\'événements de la vie réelle comme la météo, les concerts ou les événements sportifs.</div>\n' +
     '                </div>\n' +
     '\n' +
     '                <div class="vp-wrp">\n' +
@@ -226,9 +307,9 @@ module.exports = '<topbar>\n' +
     '            </h3>\n' +
     '        </div>\n' +
     '        <div class="dshb-dshb">\n' +
-    '            <img class="dshb-vws" src="../images/dashboard-img-lght.png" ng-if="vm.dshb1"></img>\n' +
-    '            <img class="dshb-vws" src="../images/dashboard-img-1-lght.png" ng-if="vm.dshb2"></img>\n' +
-    '            <img class="dshb-vws" src="../images/dashboard-img-2-lght.png" ng-if="vm.dshb3"></img>\n' +
+    '            <img class="dshb-vws" src="../images/mydata-lgt.png" ng-if="vm.dshb1"></img>\n' +
+    '            <img class="dshb-vws" src="../images/mysales-lgt.png" ng-if="vm.dshb2"></img>\n' +
+    '            <img class="dshb-vws" src="../images/myalerts-lgt.png" ng-if="vm.dshb3"></img>\n' +
     '            <div class="dshb-steps-wrp">\n' +
     '                <div ng-class="vm.dshbv[$index].classv" ng-repeat="dshb in vm.dshbv" ng-click="vm.nextview($index)">\n' +
     '                    <div ng-class="vm.dshbv[$index].classttl">{{dshb.title}}</div>\n' +
@@ -267,7 +348,7 @@ module.exports = '<topbar>\n' +
     '\n' +
     '<section class="howto-blc">\n' +
     '    <div class="section-blc-ttl-wrp" style="margin-bottom:150px">\n' +
-    '        <h2 class="section-blc-ttl-wrp-ttl"  id="1who">Pourquoi utiliser LOGIDDATA?</h2>\n' +
+    '        <h2 class="section-blc-ttl-wrp-ttl"  id="1who">Pourquoi utiliser Deepsight?</h2>\n' +
     '    </div>\n' +
     '\n' +
     '    <div class="who-block">\n' +
@@ -276,10 +357,10 @@ module.exports = '<topbar>\n' +
     '        </div>\n' +
     '        <div class="who-txt-blc">\n' +
     '            <h1 class="who-txt-hl">\n' +
-    '                Restauration commerciale.\n' +
+    '                Restauration commerciale\n' +
     '            </h1>\n' +
     '            <h2 class="who-txt-txt">\n' +
-    '                LOGIDDATA vous permet de tirer parti des différents facteurs d\'influence sur vos restaurants pour mieux piloter vos prévisions et bénéficier de :\n' +
+    '                Deepsight vous permet de tirer parti des différents facteurs d\'influence sur vos restaurants pour mieux piloter vos prévisions et bénéficier de :\n' +
     '            </h2>\n' +
     '            <ul class="who-txt-lst-wrp">\n' +
     '                <li class="who-txt-lst-itm" id="2who">\n' +
@@ -301,7 +382,7 @@ module.exports = '<topbar>\n' +
     '                E-commerce\n' +
     '            </h1>\n' +
     '            <h2 class="who-txt-txt">\n' +
-    '                LOGIDDATA donne aux e-commerçants les outils pour faire une lecture éclairée des facteurs de sensibilités aux événements extérieurs (concurrence, météo, promotions ..) et parvenir à mieux :\n' +
+    '                Deepsight donne aux e-commerçants les outils pour faire une lecture éclairée des facteurs de sensibilités aux événements extérieurs (concurrence, météo, promotions ..) et parvenir à mieux :\n' +
     '            </h2>\n' +
     '            <ul class="who-txt-lst-wrp" id="3who">\n' +
     '                <li class="who-txt-lst-itm">\n' +
@@ -320,10 +401,10 @@ module.exports = '<topbar>\n' +
     '        </div>\n' +
     '        <div class="who-txt-blc">\n' +
     '            <h1 class="who-txt-hl">\n' +
-    '                FASHION\n' +
+    '                Fashion\n' +
     '            </h1>\n' +
     '            <h2 class="who-txt-txt">\n' +
-    '                LOGIDDATA aide les acteurs du retail à mieux gérer leur stocks et les cycles de vie produit et permet de :\n' +
+    '                Deepsight aide les acteurs du retail à mieux gérer leur stocks et les cycles de vie produit et permet de :\n' +
     '            </h2>\n' +
     '            <ul class="who-txt-lst-wrp">\n' +
     '                <li class="who-txt-lst-itm">\n' +
@@ -342,7 +423,7 @@ module.exports = '<topbar>\n' +
     '\n' +
     '<section class="classic-cta-blc">\n' +
     '    <div class="classic-cta-blc-cp-wrp">\n' +
-    '        <h2 class="classic-cta-blc-cp-ttl">Commencez à utiliser LOGIDDATA dès maintenant</h2>\n' +
+    '        <h2 class="classic-cta-blc-cp-ttl">Commencez à utiliser Deepsight dès maintenant</h2>\n' +
     '    </div>\n' +
     '    <div class="classic-cta-blc-cta-wrp">\n' +
     '        <div class="classic-cta-blc-cta">\n' +
