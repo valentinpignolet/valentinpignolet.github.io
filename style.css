@@ -1,0 +1,574 @@
+
+@font-face {
+    font-family: 'proximanovalight';
+    src: local('proximanovalight'), url('./fonts/ProximaNova-Light.otf');
+}
+
+@font-face {
+    font-family: 'proximanovaregular';
+    src: local('proximanovasemibold'), url('./fonts/ProximaNova-Regular.otf');
+}
+
+@font-face {
+    font-family: 'proximanovasemibold';
+    src: local('proximanovasemibold'), url('./fonts/ProximaNova-Semibold.otf');
+}
+
+@font-face {
+    font-family: 'proximanovaextrabold';
+    src: local('proximanovaextrabold'), url('./fonts/ProximaNova-Extrabold.otf');
+}
+
+@font-face {
+    font-family: 'proximanovabold';
+    src: local('proximanovabold'), url('./fonts/ProximaNova-Bold.otf');
+}
+
+@font-face {
+    font-family: 'proximanovalightitalic';
+    src: local('proximanovalightitalic'), url('./fonts/ProximaNova-RegularItalic.otf');
+}
+
+@font-face {
+    font-family: 'proximanovaregularitalic';
+    src: local('proximanovaregularitalic'), url('./fonts/ProximaNova-LightItalic.otf');
+}
+
+@font-face {
+    font-family: 'americantypewriterregular';
+    src: local('americantypewriterregular'), url('./fonts/American-Typewriter-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'maisonneuebold';
+    src: local('maisonneuebold'), url('./fonts/MaisonNeue-Bold.ttf');
+}
+
+@font-face {
+    font-family: 'maisonneuedemi';
+    src: local('maisonneuedemi'), url('./fonts/MaisonNeue-Demi.ttf');
+}
+
+@font-face {
+    font-family: 'maisonneuelight';
+    src: local('maisonneuelight'), url('./fonts/MaisonNeue-Light.ttf');
+}
+
+@font-face {
+    font-family: 'maisonneuemedium';
+    src: local('maisonneuemedium'), url('./fonts/MaisonNeue-Medium.ttf');
+}
+
+@font-face {
+    font-family: 'maisonneuebook';
+    src: local('maisonneuebook'), url('./fonts/MaisonNeue-Book.ttf');
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1 {
+    font-family: maisonneuedemi;
+    font-size: 48px;
+    color: #ffffff;
+    margin: 10px;
+}
+
+h2 {
+    font-family: maisonneuelight;
+    font-size: 22px;
+    color: #ffffff;
+    margin: 10px;
+}
+
+/* ================= COMMONS ==================== */
+
+.button {
+    height: 36px;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-family: maisonneuebold, serif;
+    border-radius: 4px;
+    text-align: center;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    cursor: pointer;
+}
+
+.button > p {
+    padding-top: 2px;
+}
+
+.button.white {
+    color: #1A9AFA;
+    background: #ffffff;
+	-webkit-box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.20);
+    box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.20);
+    width: 130px;
+}
+
+.button.white:hover {
+    background: #e7e7e7;
+    color: #3D4EEC;
+}
+
+.button.white-2 {
+    color: #1A9AFA;
+    background: #ffffff;
+    -webkit-box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.20);
+    box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.20);
+    width: 220px;
+    height: 48px;
+    margin-bottom: 80px;
+}
+
+.button.white-2:hover {
+    background: #e7e7e7;
+    color: #3D4EEC;
+}
+
+.button.white-3 {
+    color: #076BFC;
+    background: #ffffff;
+    -webkit-box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.20);
+    box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.20);
+    width: 220px;
+    height: 48px;
+    margin-bottom: 80px;
+}
+
+.button.white-3:hover {
+    background: #e7e7e7;
+    color: #3D4EEC;
+}
+
+.button.green {
+    color: #ffffff;
+    background: linear-gradient(to right top, #0EEDCB, #06B3D7);
+    -webkit-box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.20);
+    box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.20);
+    width: 220px;
+    height: 48px;
+    margin-bottom: 40px;
+}
+
+.button.green:hover {
+    background: linear-gradient(to right top, #3BCAB4, #3E9BAE);
+}
+
+/* ================= header ==================== */
+
+.header {
+    min-height: 650px;
+    width: calc(100% -90px);
+    background:
+            linear-gradient(to right top,
+                    rgba(90, 226, 252, 0.94),
+                    rgba(10, 145, 255, 0.94)
+            ),
+            url(./ressources/background.png);
+    background-size: cover;
+    padding: 50px 90px 0 90px;
+}
+
+.header-menu {
+    /* background-color: red; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 50px;
+}
+
+.deepsight-logo {
+    width: 168px;
+    height: 42px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #ffffff;
+    font-family: proximanovasemibold;
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+.header-left {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    height: 36px;
+}
+
+.lang-flag {
+    width: 30px;
+    margin-right: 30px;
+    margin-left: 10px;
+    margin-top: 3px;
+}
+
+.header-title {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    margin-top: 100px;
+}
+
+.header-title > h2 {
+    margin-bottom: 40px
+}
+
+/* ================= BODY ==================== */
+
+.content-block.offset {
+    padding: 0 50px 0 50px;
+    margin-left: 7vw;
+    margin-right: 7vw;
+    background-color: #ffffff;
+    margin-top: -10vw;
+    min-height: 560px;
+    border-radius: 4px;
+    box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.20);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content-block.offset > h3 {
+    text-align: center;
+    margin-top: 75px;
+    margin-bottom: 40px;
+    font-family: maisonneuemedium;
+    color: #222A5F;
+    font-size: 36px;
+}
+
+.content-block.offset > p {
+    font-family: maisonneuelight;
+    color: #000000;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+}
+
+.block-multiple-children {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.info-child {
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 30px;
+}
+
+.info-child-picture {
+    height: 50px;
+    margin: 20px;
+}
+
+.info-child > h1 {
+    text-align: center;
+    font-family: maisonneuemedium;
+    color: #222A5F;
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+.info-child > p {
+    font-family: maisonneuelight;
+    color: #000000;
+    font-size: 16px;
+    text-align: center;
+}
+
+.info-block {
+    width: calc(100% - 100px);
+    min-height: 250px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 140px 50px 0 50px;
+}
+
+.info-block-text {
+    width: 550px;
+    height: 250px;
+}
+
+.info-block-text > h1 {
+    margin-bottom: 40px;
+    font-family: maisonneuemedium;
+    color: #000000;
+    font-size: 24px;
+    margin-left: 0px;
+}
+
+.info-block-text > p {
+    margin-bottom: 20px;
+    font-family: maisonneuelight;
+    color: #000000;
+    font-size: 16px;
+    margin-left: 0px;
+    line-height: 20px;
+}
+
+.info-block-image {
+    margin-top: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.info-image {
+    max-width: 480px;
+    width: 80vw;
+}
+
+.content-block.blue {
+    min-height: 610px;
+    background: linear-gradient(to right top, #066CFC, #4534F3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px;
+    margin-top: 140px;
+}
+
+.content-block.blue > h1 {
+    text-align: center;
+    font-size: 36px;
+    font-family: Roboto;
+    margin-bottom: 50px;
+}
+
+.earn-tab-grid {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 30px;
+    margin-right: 30px;
+    max-width: 900px;
+    min-height: 280px;
+    margin-bottom: 50px;
+}
+
+.earn-tab-item {
+    width: 375px;
+    display: flex;
+    margin: 30px;
+}
+
+.earn-tab-circle {
+    height: 70px;
+    width: 70px;
+    background: #ffffff;
+    border-radius: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.earn-tab-icon {
+    height: 30px;
+}
+
+.earn-tab-description {
+    margin-left: 30px;
+    width: 260px;
+}
+
+.earn-tab-description > h2 {
+    margin: 0;
+    padding: 0;
+    color: #ffffff;
+    font-family: roboto;
+    font-size: 28px;
+    margin-bottom: 30px;
+    margin-top: 5px;
+}
+
+.earn-tab-description > p {
+    margin: 0;
+    padding: 0;
+    color: #ffffff;
+    font-family: roboto;
+    font-size: 16px;
+}
+
+.content-block.light-blue {
+    min-height: 610px;
+    background: linear-gradient(to right top, #5AE3FD, #0A91FF);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px;
+}
+
+.content-block.light-blue > h1 {
+    text-align: center;
+    font-size: 36px;
+    font-family: Roboto;
+    margin-bottom: 50px;
+}
+
+.clients-card {
+    min-width: 180px;
+    width: 180px;
+    height: 240px;
+    border-radius: 4px;
+    background: #ffffff;
+    -webkit-box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.20);
+    box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.20);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin: 10px;
+    margin-bottom: 30px;
+}
+
+.clients-card-circle {
+    min-width: 76px;
+    min-height: 76px;
+    background: linear-gradient(to right top, #ccf7ff, #bbe1ff);
+    border-radius: 70px;
+    border: 9px solid #ffffff;
+    -webkit-box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.20);
+    box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.20);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.client-cards-block {
+    width: calc(100% - 200px);
+    margin-left: 100px;
+    margin-right: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.clients-card > h1 {
+    text-align: center;
+    font-family: maisonneuedemi;
+    font-size: 20px;
+    color: #232B5F;
+}
+
+.clients-card > p {
+    text-align: center;
+    font-family: proximanovalight;
+    font-size: 16px;
+    color: #000000;
+    text-align: center;
+}
+
+.card-icon {
+    width: 35px;
+}
+
+.content-block.white {
+    min-height: 310px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px;
+}
+
+.content-block.white > h1 {
+    text-align: center;
+    font-size: 36px;
+    font-family: maisonneuedemi;
+    color: #232B5F;
+    margin-bottom: 30px;
+}
+
+.content-block.white > p {
+    text-align: center;
+    font-size: 18px;
+    font-family: maisonneuelight;
+    color: #000000;
+    margin-bottom: 130px;
+}
+
+
+/* ================= FOOTER ==================== */
+
+
+.footer {
+    min-height: 140px;
+    width: 100%;
+    background: linear-gradient(to right top, #5AE3FD, #0A91FF);
+    padding-top: 20px;
+}
+
+.footer-columns {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.footer-elem {
+    width: 190px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.footer-deepsight-logo {
+    width: 39px;
+}
+
+.copyright {
+    width: 270px;
+    display: flex;
+    align-items: center;
+}
+
+.copyright > p {
+    text-align: center;
+    margin-left: 10px;
+    color: #ffffff;
+    font-family: maisonneuebook;
+    font-size: 20px;
+}
+
+.footer-elem > p {
+    text-align: center;
+    color: #ffffff;
+    font-family: maisonneuelight;
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+}
+
+.footer-partner {
+    width: 150px;
+}
+
+.social-icon {
+    width: 32px;
+}

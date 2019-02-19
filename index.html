@@ -1,84 +1,243 @@
-<!-- <!doctype html> -->
-<html lang="en" ng-app="main" ng-strict-di>
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+        <title>Deepsight | Logiciel de prévision et approvisionnement</title>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <link rel="icon" type="image/png" href="images/logo-deepsight.png">
-    <!-- Enable all requests, inline styles, and eval() see https://github.com/apache/cordova-plugin-whitelist#content-security-policy-->
-    <meta http-equiv="Content-Security-Policy" content="default-src *;
-   img-src * 'self' data: https:; script-src 'self' 'unsafe-inline' 'unsafe-eval' *;
-   style-src  'self' 'unsafe-inline' *">
-    <link rel="icon" type="image/ico" href="favicon.ico">
-    <!--[if IE]>
-    <link rel="shortcut icon" href="/favicon.ico" type="image/vnd.microsoft.icon">
-    <![endif]-->
-    <title>Deepsight | Le pilotage de votre activitée réinventé</title>
-    <link rel="stylesheet" href="styles/main.css">
 
-</head>
+        <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+        <link rel="manifest" href="/site.webmanifest">
+        <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+        <meta name="msapplication-TileColor" content="#da532c">
+        <meta name="theme-color" content="#ffffff">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div class="header">
+            <div class="header-menu">
+                <div class=deepsight-logo>
+                    <img src="ressources/logo-white.svg" alt="Deepsight" class='logo'/>
+                    Deepsight
+                </div>
+                <div class="header-left">
+                    <div class="lang-select">
+                        <img src="ressources/flag-fr.png" class="lang-flag"/>
+                    </div>
+                    <a href='http://app.deepsight.io'>
+                        <div class="button white">
+                            CONNEXION
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="header-title">
+                <h1>Le pilotage de votre activité réinventé</h1>
+                <h2>Augmentez la marge de vos centres de profit grâce à l'analyse prédictive</h2>
+                <a href='mailto:brice@deepsight.io'>
+                    <div class="button white-2" style="margin-bottom: 100px;">
+                        <p>
+                            Demandez une demo
+                        </p>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="content">
+            <div class="content-block offset">
+                <h3>Maitrisez votre prévision d'activité pour une meilleure planification</h3>
+                <p>L'algorithme Deepsight fournit une prévision d'activité robuste tenant compte de la multitude des facteurs influençant votre activité.
+                <br>Cette prévision vient nourrir notre moteur de recommandation de commande.</br>
+                    <div class="block-multiple-children">
+                        <div class="info-child">
+                            <img class="info-child-picture" src="ressources/forecast.png" />
+                            <h1>Prévision</h1>
+                            <p>Augmentez la précision de vos prévisions.</p>
+                        </div>
+                        <div class="info-child">
+                            <img class="info-child-picture" src="ressources/package.png" />
+                            <h1>Approvisonnement</h1>
+                            <p>Commandez les bonnes quantités.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="content-block blank">
+                    <div class="info-block">
+                        <div class='info-block-text'>
+                            <h1>Une prévision fiable et robuste</h1>
+                            <p>
+                                L'algorithme Deepsight se nourrit des données passées et des événements extérieurs comme la météo, les vacances scolaires ou les jours fériés. Intégrez vos propres événements dans notre plateforme, notre algorithme les intégre directement à la prévision.
+                            </p>
+                        </div>
+                        <div class='info-block-image'>
+                            <img class='info-image' src='ressources/screenshot.png' />
+                        </div>
+                    </div>
+                    <div class="info-block">
+                        <div class='info-block-image'>
+                            <img class='info-image' src='ressources/screenshot.png' />
+                        </div>
+                        <div class='info-block-text'>
+                            <h1>Un approvisionnement plus juste</h1>
+                            <p>
+                                Deepsight fournit également une prévision de consommation par article. En tenant compte de vos stocks, notre algorithme propose une recommandation de commande optimisée.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="content-block blue">
+                    <h1>Augmentez votre marge et gagnez du temps avec Deepsight</h1>
+                    <div class="earn-tab-grid">
+                        <div class="earn-tab-item">
+                            <div class="earn-tab-circle">
+                                <img src="ressources/earn-tab-forecast.png" class="earn-tab-icon"/>
+                            </div>
+                            <div class="earn-tab-description">
+                                <h2>
+                                    Des prévisions justes
+                                </h2>
+                                <p>
+                                    Ne laissez rien au hasard et optimisez vos coûts matières et humains en fonction de l'affluence.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="earn-tab-item">
+                            <div class="earn-tab-circle">
+                                <img src="ressources/earn-tab-dlc.png" class="earn-tab-icon"/>
+                            </div>
+                            <div class="earn-tab-description">
+                                <h2>
+                                    Evitez les ruptures et les pertes
+                                </h2>
+                                <p>
+                                    Soyez serein sur vos commandes.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="earn-tab-item">
+                            <div class="earn-tab-circle">
+                                <img src="ressources/earn-tab-margins.png" class="earn-tab-icon"/>
+                            </div>
+                            <div class="earn-tab-description">
+                                <h2>
+                                    Augmentez vos marges
+                                </h2>
+                                <p>
+                                    En commandant plus juste, notre outil permet une augmentation de 2 à 5 points de marge.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="earn-tab-item">
+                            <div class="earn-tab-circle">
+                                <img src="ressources/earn-tab-time.png" class="earn-tab-icon"/>
+                            </div>
+                            <div class="earn-tab-description">
+                                <h2>
+                                    80% de temps gagné
+                                </h2>
+                                <p>
+                                    Economisez du temps pour vous consacrer exclusivement à vos clients
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <a href='mailto:brice@deepsight.io'>
+                        <div class="button white-3">
+                            <p>
+                                Demandez une demo
+                            </p>
+                        </div>
+                    </a>
+                </div>
+                <div class="content-block light-blue">
+                    <h1>Vous gérez des prévisions et des approvisionnements ?</h1>
+                    <div class="client-cards-block">
+                        <div class="clients-card">
+                            <div class="clients-card-circle">
+                                <img src='ressources/bell.png' class='card-icon' />
+                            </div>
+                            <h1>Restauration</h1>
+                            <p>
+                                Indépendants, Chaines, Franchisés
+                            </p>
+                        </div>
+                        <div class="clients-card">
+                            <div class="clients-card-circle">
+                                <img src='ressources/market.png' class='card-icon' />
+                            </div>
+                            <h1>Distribution</h1>
+                            <p>
+                                Alimentaire, spécialisée
+                            </p>
+                        </div>
+                        <div class="clients-card">
+                            <div class="clients-card-circle">
+                                <img src='ressources/bed.png' class='card-icon' />
+                            </div>
+                            <h1>Hôtellerie</h1>
+                            <p>
+                                Indépendants, Chaines
+                            </p>
+                        </div>
+                        <div class="clients-card">
+                            <div class="clients-card-circle">
+                                <img src='ressources/factory.png' class='card-icon' />
+                            </div>
+                            <h1>Production</h1>
+                            <p>
+                                Alimentaire, spécialisée
+                            </p>
+                        </div>
+                    </div>
+                    <a href='mailto:brice@deepsight.io'>
+                        <div class="button white-2">
+                            <p>
+                                Demandez une demo
+                            </p>
+                        </div>
+                    </a>
+                </div>
+                <div class="content-block white">
+                    <h1>COMMENCEZ À UTILISER DEEPSIGHT</h1>
+                    <a href='mailto:brice@deepsight.io'>
+                        <div class="button green">
+                            <p>
+                                Demandez une demo
+                            </p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        <div class="footer">
+            <div class="footer-columns">
+                <div class="footer-elem">
+                    <div class="copyright">
+                        <img src='ressources/logo-white.svg' class="footer-deepsight-logo"/>
+                        <p>©2019 Deepsight SAS</p>
+                    </div>
+                </div>
+                <div class="footer-elem">
+                    <img src='ressources/station-F.png' class="footer-partner"/>
+                    <p>55 boulevard Vincent Auriol</p>
+                    <p>75014 Paris</p>
+                </div>
+                <div class="footer-elem">
+                    <img src='ressources/50partners.png' class="footer-partner"/>
+                </div>
+                <div class="footer-elem">
+                    <div class="social-media">
+                        <img src="ressources/facebook.png" class="social-icon" />
+                        <a href="https://www.linkedin.com/company/deepsight/about/">
+                            <img src="ressources/linkedin.png" class="social-icon" />
+                        </a>
+                        <img src="ressources/twitter.png" class="social-icon" />
 
-<body class="app-body">
-
-    <!--[if lt IE 7]>
-            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
-    <![endif]-->
-    <ui-view autoscroll="true"></ui-view>
-    <!--     <script src="//static.intercomcdn.com/intercom.v1.js"></script> -->
-
-    <script src="scripts/bundle.js"></script>
-
-    <script>
-    window.intercomSettings = {
-        app_id: "elkm651z"
-    };
-    </script>
-    <script>
-    (function() {
-        var w = window;
-        var ic = w.Intercom;
-        if (typeof ic === "function") {
-            ic('reattach_activator');
-            ic('update', intercomSettings);
-        } else {
-            var d = document;
-            var i = function() {
-                i.c(arguments)
-            };
-            i.q = [];
-            i.c = function(args) {
-                i.q.push(args)
-            };
-            w.Intercom = i;
-
-            function l() {
-                var s = d.createElement('script');
-                s.type = 'text/javascript';
-                s.async = true;
-                s.src = 'https://widget.intercom.io/widget/elkm651z';
-                var x = d.getElementsByTagName('script')[0];
-                x.parentNode.insertBefore(s, x);
-            }
-            if (w.attachEvent) {
-                w.attachEvent('onload', l);
-            } else {
-                w.addEventListener('load', l, false);
-            }
-        }
-    })()
-    </script>
-
-</body>
-
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-85699486-1', 'auto');
-  ga('send', 'pageview');
-
-</script>
-
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
 </html>
