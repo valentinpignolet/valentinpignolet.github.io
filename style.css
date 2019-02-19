@@ -307,6 +307,10 @@ h2 {
     margin: 140px 50px 0 50px;
 }
 
+.info-block.sec {
+    flex-wrap: wrap-reverse;
+}
+
 .info-block-text {
     width: 550px;
     height: 250px;
@@ -369,7 +373,8 @@ h2 {
 }
 
 .earn-tab-item {
-    width: 375px;
+    max-width: 375px;
+    width: 100%;
     display: flex;
     margin: 30px;
 }
@@ -390,7 +395,7 @@ h2 {
 
 .earn-tab-description {
     margin-left: 30px;
-    width: 260px;
+    max-width: 260px;
 }
 
 .earn-tab-description > h2 {
